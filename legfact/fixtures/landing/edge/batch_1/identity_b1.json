@@ -1,0 +1,265 @@
+{
+  "relations": [
+    {
+      "id": "IL-R-MULTI",
+      "type": "initial_leg",
+      "root_id": "R-MULTI",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "110",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-MULTI"
+    },
+    {
+      "id": "IL-R-REN",
+      "type": "initial_leg",
+      "root_id": "R-REN",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "111",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-REN"
+    },
+    {
+      "id": "IL-R-S1",
+      "type": "initial_leg",
+      "root_id": "R-S1",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "120",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-S1"
+    },
+    {
+      "id": "IL-R-S2",
+      "type": "initial_leg",
+      "root_id": "R-S2",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "121",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-S2"
+    },
+    {
+      "id": "IL-R-T",
+      "type": "initial_leg",
+      "root_id": "R-T",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "130",
+        "suffix": "",
+        "service_date": "2026-01-31",
+        "departure": "URC",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-T"
+    },
+    {
+      "id": "IL-R-U1",
+      "type": "initial_leg",
+      "root_id": "R-U1",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "140",
+        "suffix": "",
+        "service_date": "2026-02-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-U1"
+    },
+    {
+      "id": "IL-R-U2",
+      "type": "initial_leg",
+      "root_id": "R-U2",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "141",
+        "suffix": "",
+        "service_date": "2026-02-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-U2"
+    },
+    {
+      "id": "IL-R-Z",
+      "type": "initial_leg",
+      "root_id": "R-Z",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "150",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-Z"
+    },
+    {
+      "id": "IL-R-W",
+      "type": "initial_leg",
+      "root_id": "R-W",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "160",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-W"
+    },
+    {
+      "id": "IL-R-H",
+      "type": "initial_leg",
+      "root_id": "R-H",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "170",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-H"
+    },
+    {
+      "id": "IL-R-D",
+      "type": "initial_leg",
+      "root_id": "R-D",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "180",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-D"
+    },
+    {
+      "id": "IL-R-DP",
+      "type": "initial_leg",
+      "root_id": "R-DP",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "181",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-DP"
+    },
+    {
+      "id": "IL-R-E",
+      "type": "initial_leg",
+      "root_id": "R-E",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "182",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-E"
+    },
+    {
+      "id": "IL-R-F",
+      "type": "initial_leg",
+      "root_id": "R-F",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "183",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "PEK"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-F"
+    },
+    {
+      "id": "IL-R-O",
+      "type": "initial_leg",
+      "root_id": "R-O",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "184",
+        "suffix": "",
+        "service_date": "2026-03-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-R-O"
+    },
+    {
+      "id": "RN-REN",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "111",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "112",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "effective_at": "2026-01-01T00:00:00+08:00"
+    }
+  ]
+}

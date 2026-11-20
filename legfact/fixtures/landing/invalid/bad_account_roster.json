@@ -1,0 +1,19 @@
+{
+  "airport": "SHA",
+  "roots": [
+    {
+      "account": "  ",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "201",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-I1",
+      "weight_kg": 1000
+    }
+  ]
+}

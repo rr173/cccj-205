@@ -45,7 +45,10 @@ legfact/
     query.py        # 重放式两截点查询、字段 conflict/cleared、journey 取消
     export.py       # 源报文导出、身份解释、批次告警
     manifest.py     # 交接 manifest 构造（sender、连续批次号、摘要、条数）
-    cli.py          # 命令行入口
+    cli.py          # 命令行入口（含 mart / mart-verify 子命令）
+    landing_config.py  # 落地使用费：一套账配置、名册/协议解析与结构校验
+    landing.py         # 落地使用费：计价、版本账本、更正分录、对账校验
+    landing_cli.py     # 落地使用费：mart init/plan/release/show 命令面
   tests/
     generate_fixtures.py  # 确定性合成夹具 + 人工预期表
     check_walkthrough.py  # 独立对照检查器（读人工预期，不读投影逻辑）
@@ -53,6 +56,8 @@ legfact/
     test_cancellation.py  # cancel/restore 冲突与 journey 作用域
     run_all.sh            # 一键全量门禁
   fixtures/               # 生成产物：main / edge / large / expected
+  fixtures/landing/       # 落地使用费小夹具：walkthrough / edge / invalid
+  docs/landing_mart.md    # 落地使用费数据集市：接口、格式、记账与对账规则
 ```
 
 ## 3. 快速开始
@@ -116,4 +121,43 @@ bash tests/run_all.sh
 - `test_cancellation.py`：cancel/restore 同刻冲突、显式 restore、journey
   作用域按身份成员集合。
 
-仅依赖 Python 3.11 标准库（sqlite3、xml.parsers.expat、hashlib、tracemalloc）。
+- `check_landing_mart.py` / `test_landing_mart.py`：落地使用费数据集市，
+  47 项手算对照 + 41 项行为门禁（拒绝、事务中断、幂等重放、过期写入、
+  旧版不可变、只改解释不重复记账、零金额与未计价之分）。
+- `scale_landing.py`：运行时生成 3 万运营根 / 12 万条稀疏报文，整账预演 +
+  跨月分区改账，报告参与计价/未决条数、分区余额与进程峰值 RSS
+  （默认跳过，`LANDING_SCALE=1 bash tests/run_all.sh` 或单独运行）。
+
+仅依赖 Python 3.11 标准库（sqlite3、xml.parsers.expat、hashlib、tracemalloc、
+zoneinfo）。
+
+## 7. 落地使用费数据集市
+
+航段事实仓之上的一层只读计价集市，详见 `docs/landing_mart.md`：
+
+```bash
+# 开账：机场 / IANA 时区 / 固定结算月份 / 币种
+python3 -I src/legfact/cli.py mart init --book /tmp/book \
+  --config fixtures/landing/walkthrough/book.json
+
+# 预演（不写任何数据）
+python3 -I src/legfact/cli.py mart plan --book /tmp/book --warehouse /tmp/wh \
+  --receipt-batch 2 --cutoff 2026-02-10T00:00:00+08:00 \
+  --roster fixtures/landing/walkthrough/roster_v2.json \
+  --tariff fixtures/landing/walkthrough/tariff.json
+
+# 正式发布（首版 --base-version 0；此后声明所依据的上一版）
+python3 -I src/legfact/cli.py mart release --book /tmp/book --warehouse /tmp/wh \
+  --receipt-batch 2 --cutoff 2026-02-10T00:00:00+08:00 \
+  --roster fixtures/landing/walkthrough/roster_v2.json \
+  --tariff fixtures/landing/walkthrough/tariff.json \
+  --request-id close-2026-02-v2 --base-version 1
+
+# 查看版本 / 明细 / 分录 / 按原归属的当版变动；独立对账
+python3 -I src/legfact/cli.py mart show --book /tmp/book --version 2
+python3 -I src/legfact/cli.py mart-verify --book /tmp/book
+```
+
+计价只使用指定 `receipt_batch` 与事实截止时刻下**已裁定**的权威实际到达，
+金额全程整数（最小货币单位），逐账户逐当地月份按实到 UTC 排序编号；更正走
+追加式冲销 + 正向分录，旧版本明细与其原始依据不可变。

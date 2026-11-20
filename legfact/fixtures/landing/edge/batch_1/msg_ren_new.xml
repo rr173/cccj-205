@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIDXMessageEnvelope xmlns="urn:org:aidx:synth:legfact:1">
+   <EventID>MSG_REN_NEW</EventID>
+   <Sender>SHA-OCC</Sender>
+   <SourceRevision>2</SourceRevision>
+   <EffectiveAt>2026-01-04T15:00:00+08:00</EffectiveAt>
+   <IdentityAt>2026-01-02T00:00:00+08:00</IdentityAt>
+   <MessageType>FlightUpdate</MessageType>
+   <FlightLeg>
+      <OperatingCarrier>CA</OperatingCarrier>
+      <FlightNumber>112</FlightNumber>
+      <Suffix nil="true"></Suffix>
+      <ServiceDate>2026-01-01</ServiceDate>
+      <DepartureStation>PEK</DepartureStation>
+      <ArrivalStation>SHA</ArrivalStation>
+      <ActualTimeOnBlocks>2026-01-04T13:00:00+08:00</ActualTimeOnBlocks>
+   </FlightLeg>
+</AIDXMessageEnvelope>

@@ -1,0 +1,124 @@
+{
+  "cutoff": "2026-03-10T00:00:00+08:00",
+  "description": "Hand-computed expectations for the landing mart edge fixtures (batch 1, cutoff 2026-03-10T00:00:00+08:00).",
+  "effective_total_minor": 8608,
+  "out_of_range": {
+    "R-O": "month_outside_book"
+  },
+  "priced_by_root": {
+    "R-DP": {
+      "account": "ACCT-D",
+      "amount_minor": 1000,
+      "month": "2026-01",
+      "mult": 10000,
+      "rate": 1000,
+      "serial": 1,
+      "units": 1
+    },
+    "R-H": {
+      "account": "ACCT-H",
+      "amount_minor": 8,
+      "month": "2026-01",
+      "mult": 15000,
+      "note": "5 * 15000 / 10000 = 7.5 rounds half-up to 8",
+      "rate": 5,
+      "serial": 1,
+      "units": 1
+    },
+    "R-MULTI": {
+      "account": "ACCT-M",
+      "amount_minor": 1000,
+      "month": "2026-01",
+      "mult": 10000,
+      "note": "three reports of one landing count once",
+      "rate": 1000,
+      "serial": 1,
+      "units": 1
+    },
+    "R-REN": {
+      "account": "ACCT-M",
+      "amount_minor": 500,
+      "month": "2026-01",
+      "mult": 5000,
+      "note": "old and new alias are one operating root",
+      "rate": 1000,
+      "serial": 2,
+      "units": 1
+    },
+    "R-S1": {
+      "account": "ACCT-S",
+      "amount_minor": 1000,
+      "month": "2026-01",
+      "mult": 10000,
+      "rate": 1000,
+      "serial": 1,
+      "units": 1
+    },
+    "R-S2": {
+      "account": "ACCT-S",
+      "amount_minor": 500,
+      "month": "2026-01",
+      "mult": 5000,
+      "note": "same instant as R-S1; R-S1 < R-S2 by root id",
+      "rate": 1000,
+      "serial": 2,
+      "units": 1
+    },
+    "R-T": {
+      "account": "ACCT-T",
+      "amount_minor": 1000,
+      "month": "2026-02",
+      "mult": 10000,
+      "note": "17:30Z on Jan 31 is Feb 1 01:30 at +08:00",
+      "rate": 1000,
+      "serial": 1,
+      "units": 1
+    },
+    "R-U1": {
+      "account": "ACCT-U",
+      "amount_minor": 700,
+      "month": "2026-02",
+      "mult": 10000,
+      "rate": 700,
+      "serial": 1,
+      "units": 1
+    },
+    "R-U2": {
+      "account": "ACCT-U",
+      "amount_minor": 900,
+      "month": "2026-02",
+      "mult": 10000,
+      "note": "local date 2026-02-03 is in the second interval",
+      "rate": 900,
+      "serial": 2,
+      "units": 1
+    },
+    "R-W": {
+      "account": "ACCT-W",
+      "amount_minor": 2000,
+      "month": "2026-01",
+      "mult": 10000,
+      "note": "1500 kg -> 2 units (ceil)",
+      "rate": 1000,
+      "serial": 1,
+      "units": 2
+    },
+    "R-Z": {
+      "account": "ACCT-Z",
+      "amount_minor": 0,
+      "month": "2026-01",
+      "mult": 10000,
+      "note": "priced at zero keeps a posting identity",
+      "rate": 0,
+      "serial": 1,
+      "units": 1
+    }
+  },
+  "receipt_batch": 1,
+  "unpriced": {
+    "R-D": "no_definite_actual",
+    "R-E": "actual_after_cutoff",
+    "R-F": "arrival_airport_mismatch",
+    "R-X": "unknown_root"
+  }
+}

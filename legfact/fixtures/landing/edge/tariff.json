@@ -1,0 +1,130 @@
+{
+  "airport": "SHA",
+  "currency": "CNY",
+  "rates": [
+    {
+      "category": "JET",
+      "min_per_unit": 1000,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-01"
+    },
+    {
+      "category": "TURBO",
+      "min_per_unit": 700,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-02-03"
+    },
+    {
+      "category": "TURBO",
+      "min_per_unit": 900,
+      "valid_from": "2026-02-03",
+      "valid_to": "2026-03-01"
+    },
+    {
+      "category": "ZERO",
+      "min_per_unit": 0,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-01"
+    },
+    {
+      "category": "ODD",
+      "min_per_unit": 5,
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-01"
+    }
+  ],
+  "serials": [
+    {
+      "account": "ACCT-M",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": 1
+        },
+        {
+          "ten_thousandths": 5000,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-S",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": 1
+        },
+        {
+          "ten_thousandths": 5000,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-T",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": 1
+        },
+        {
+          "ten_thousandths": 5000,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-U",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-Z",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-W",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": 1
+        },
+        {
+          "ten_thousandths": 7500,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-H",
+      "rungs": [
+        {
+          "ten_thousandths": 15000,
+          "upto_serial": null
+        }
+      ]
+    },
+    {
+      "account": "ACCT-D",
+      "rungs": [
+        {
+          "ten_thousandths": 10000,
+          "upto_serial": 1
+        },
+        {
+          "ten_thousandths": 5000,
+          "upto_serial": null
+        }
+      ]
+    }
+  ]
+}

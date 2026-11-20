@@ -1,0 +1,237 @@
+{
+  "book": {
+    "airport": "SHA",
+    "currency": "CNY",
+    "months": [
+      "2026-01",
+      "2026-02"
+    ],
+    "timezone": "Asia/Shanghai"
+  },
+  "description": "Hand-computed expectations for the landing mart walkthrough. Derived by hand from the fixtures; the checker never calls the pricing implementation to produce them.",
+  "phases": [
+    {
+      "base_version": null,
+      "cutoff": "2026-02-10T00:00:00+08:00",
+      "effective_total_minor": 2500,
+      "entries": [
+        {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "kind": "positive",
+          "month": "2026-01",
+          "root_id": "R-A"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": 500,
+          "kind": "positive",
+          "month": "2026-01",
+          "root_id": "R-B"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "kind": "positive",
+          "month": "2026-02",
+          "root_id": "R-C"
+        }
+      ],
+      "name": "v1 baseline (batch 1)",
+      "out_of_range": [],
+      "priced_by_root": {
+        "R-A": {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "month": "2026-01",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        },
+        "R-B": {
+          "account": "ACCT-A",
+          "amount_minor": 500,
+          "month": "2026-01",
+          "mult": 5000,
+          "rate": 1000,
+          "serial": 2,
+          "units": 1
+        },
+        "R-C": {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "month": "2026-02",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        }
+      },
+      "receipt_batch": 1,
+      "roster": "roster_v1.json",
+      "unpriced": {}
+    },
+    {
+      "base_version": 1,
+      "cutoff": "2026-02-10T00:00:00+08:00",
+      "effective_total_minor": 2500,
+      "entries": [
+        {
+          "account": "ACCT-A",
+          "amount_minor": -1000,
+          "kind": "reversal",
+          "month": "2026-01",
+          "root_id": "R-A"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": -500,
+          "kind": "reversal",
+          "month": "2026-01",
+          "root_id": "R-B"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": -1000,
+          "kind": "reversal",
+          "month": "2026-02",
+          "root_id": "R-C"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "kind": "positive",
+          "month": "2026-02",
+          "root_id": "R-A"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "kind": "positive",
+          "month": "2026-01",
+          "root_id": "R-B"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": 500,
+          "kind": "positive",
+          "month": "2026-02",
+          "root_id": "R-C"
+        }
+      ],
+      "entry_net_minor": 0,
+      "name": "v2 A corrected from January into February, before C; B and C have no new message",
+      "out_of_range": [],
+      "priced_by_root": {
+        "R-A": {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "month": "2026-02",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        },
+        "R-B": {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "month": "2026-01",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        },
+        "R-C": {
+          "account": "ACCT-A",
+          "amount_minor": 500,
+          "month": "2026-02",
+          "mult": 5000,
+          "rate": 1000,
+          "serial": 2,
+          "units": 1
+        }
+      },
+      "receipt_batch": 2,
+      "roster": "roster_v2.json",
+      "unpriced": {},
+      "why_entries_if_net_zero": "The total stays 2500 because A moved from January (serial 1, 1000) to February (serial 1, 1000): its amount is unchanged, but its original attribution month changes, so the January posting must be reversed and re-booked in February. The move also re-orders February: A takes serial 1 (1000) and C falls to serial 2 (500), a -500 change; January keeps only B, which rises from serial 2 (500) to serial 1 (1000), +500. The two collateral changes cancel, but each is a real change to the original account/month/amount and must be journalled. A pure net-zero check would hide both re-pricings."
+    },
+    {
+      "base_version": 2,
+      "cutoff": "2026-02-10T00:00:00+08:00",
+      "effective_total_minor": 3000,
+      "entries": [
+        {
+          "account": "ACCT-A",
+          "amount_minor": -1000,
+          "kind": "reversal",
+          "month": "2026-02",
+          "root_id": "R-A"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": -500,
+          "kind": "reversal",
+          "month": "2026-02",
+          "root_id": "R-C"
+        },
+        {
+          "account": "ACCT-B",
+          "amount_minor": 1000,
+          "kind": "positive",
+          "month": "2026-02",
+          "root_id": "R-A"
+        },
+        {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "kind": "positive",
+          "month": "2026-02",
+          "root_id": "R-C"
+        }
+      ],
+      "entry_net_minor": 500,
+      "name": "v3 A reassigned to ACCT-B; C re-serialises in ACCT-A",
+      "out_of_range": [],
+      "priced_by_root": {
+        "R-A": {
+          "account": "ACCT-B",
+          "amount_minor": 1000,
+          "month": "2026-02",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        },
+        "R-B": {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "month": "2026-01",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        },
+        "R-C": {
+          "account": "ACCT-A",
+          "amount_minor": 1000,
+          "month": "2026-02",
+          "mult": 10000,
+          "rate": 1000,
+          "serial": 1,
+          "units": 1
+        }
+      },
+      "receipt_batch": 2,
+      "roster": "roster_v3.json",
+      "unpriced": {}
+    }
+  ],
+  "stability_checks": {
+    "replay_v2_after_v3_is_rejected": true,
+    "same_request_replay_returns_version": 2,
+    "v1_lines_unchanged_after_v2_v3": true,
+    "v2_net_zero_entries": 6
+  }
+}

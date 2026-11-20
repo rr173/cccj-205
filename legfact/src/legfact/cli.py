@@ -191,7 +191,26 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--warehouse", required=True)
     sp.add_argument("--receipt-batch", type=int, required=True)
     sp.set_defaults(func=cmd_warnings)
+
+    sp = sub.add_parser("mart", help="landing-fee data mart (see docs/landing_mart.md)")
+    sp.add_argument("mart_args", nargs=argparse.REMAINDER)
+    sp.set_defaults(func=cmd_mart)
+
+    sp = sub.add_parser("mart-verify",
+                        help="re-derive landing ledger invariants from stored rows")
+    sp.add_argument("--book", required=True)
+    sp.set_defaults(func=cmd_mart_verify)
     return p
+
+
+def cmd_mart(a: argparse.Namespace) -> int:
+    from legfact.landing_cli import main as mart_main
+    return mart_main(list(a.mart_args))
+
+
+def cmd_mart_verify(a: argparse.Namespace) -> int:
+    from legfact.landing_cli import verify_main
+    return verify_main(["--book", a.book])
 
 
 def main(argv: list[str] | None = None) -> int:

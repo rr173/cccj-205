@@ -1,0 +1,47 @@
+{
+  "airport": "SHA",
+  "roots": [
+    {
+      "account": "ACCT-B",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "101",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-A",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-A",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "102",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-B",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-A",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "103",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-C",
+      "weight_kg": 1000
+    }
+  ]
+}

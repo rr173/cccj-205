@@ -1,0 +1,229 @@
+{
+  "airport": "SHA",
+  "roots": [
+    {
+      "account": "ACCT-M",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "110",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-MULTI",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-M",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "111",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-REN",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-S",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "120",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-S1",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-S",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "121",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-S2",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-T",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "URC",
+        "flight_no": "130",
+        "service_date": "2026-01-31",
+        "suffix": ""
+      },
+      "root_id": "R-T",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-U",
+      "category": "TURBO",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "140",
+        "service_date": "2026-02-01",
+        "suffix": ""
+      },
+      "root_id": "R-U1",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-U",
+      "category": "TURBO",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "141",
+        "service_date": "2026-02-01",
+        "suffix": ""
+      },
+      "root_id": "R-U2",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-Z",
+      "category": "ZERO",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "150",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-Z",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-W",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "160",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-W",
+      "weight_kg": 1500
+    },
+    {
+      "account": "ACCT-H",
+      "category": "ODD",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "170",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-H",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-D",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "180",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-D",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-D",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "181",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-DP",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-D",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "182",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-E",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-D",
+      "category": "JET",
+      "root": {
+        "arrival": "PEK",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "183",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-F",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-D",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "999",
+        "service_date": "2026-01-01",
+        "suffix": ""
+      },
+      "root_id": "R-X",
+      "weight_kg": 1000
+    },
+    {
+      "account": "ACCT-D",
+      "category": "JET",
+      "root": {
+        "arrival": "SHA",
+        "carrier": "CA",
+        "departure": "PEK",
+        "flight_no": "184",
+        "service_date": "2026-03-01",
+        "suffix": ""
+      },
+      "root_id": "R-O",
+      "weight_kg": 1000
+    }
+  ]
+}

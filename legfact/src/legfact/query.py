@@ -78,6 +78,41 @@ class QueryError(ValueError):
     pass
 
 
+def resolve_field_updates(field: str, updates: list[dict]) -> FieldResult:
+    """Adjudicate one fact field from candidate updates.
+
+    This is the *single* implementation of the warehouse's field rules, shared
+    by :class:`QueryEngine` and by the landing-fee mart (which feeds it with a
+    pre-bound ``act_arr`` update stream instead of re-querying per root):
+
+    * greatest ``effective_at`` wins;
+    * within that instant, greatest ``source_revision`` wins;
+    * distinct ``(state, value)`` payloads at identical priority = ``conflict``
+      (never pick one, never spread to other fields);
+    * an explicit ``cleared`` update overrides older values;
+    * no update at all = ``absent``.
+
+    ``updates`` entries need ``state``, ``value``, ``effective_at``,
+    ``source_revision`` and any provenance keys the caller wants echoed back.
+    """
+    if not updates:
+        return FieldResult(field, FIELD_LABELS.get(field, field), "absent")
+    max_eff = max(u["effective_at"] for u in updates)
+    top_eff = [u for u in updates if u["effective_at"] == max_eff]
+    max_rev = max(u["source_revision"] for u in top_eff)
+    top = [u for u in top_eff if u["source_revision"] == max_rev]
+    distinct = {(u["state"], u["value"]) for u in top}
+    if len(distinct) > 1:
+        return FieldResult(field, FIELD_LABELS.get(field, field), "conflict",
+                           contenders=top, winning=None)
+    win = top[0]
+    return FieldResult(
+        field, FIELD_LABELS.get(field, field),
+        "cleared" if win["state"] == "cleared" else "value",
+        value=None if win["state"] == "cleared" else win["value"],
+        contenders=updates, winning=win)
+
+
 class QueryEngine:
     def __init__(self, warehouse: Warehouse):
         self.wh = warehouse
@@ -216,27 +251,7 @@ class QueryEngine:
 
         result: dict[str, FieldResult] = {}
         for f in FACT_FIELDS:
-            updates = per_field[f]
-            if not updates:
-                result[f] = FieldResult(f, FIELD_LABELS[f], "absent")
-                continue
-            max_eff = max(u["effective_at"] for u in updates)
-            top_eff = [u for u in updates if u["effective_at"] == max_eff]
-            max_rev = max(u["source_revision"] for u in top_eff)
-            top = [u for u in top_eff if u["source_revision"] == max_rev]
-            # distinct payloads at identical priority => conflict
-            distinct = {(u["state"], u["value"]) for u in top}
-            if len(distinct) > 1:
-                result[f] = FieldResult(
-                    f, FIELD_LABELS[f], "conflict", contenders=top,
-                    winning=None)
-                continue
-            win = top[0]
-            result[f] = FieldResult(
-                f, FIELD_LABELS[f],
-                "cleared" if win["state"] == "cleared" else "value",
-                value=None if win["state"] == "cleared" else win["value"],
-                contenders=updates, winning=win)
+            result[f] = resolve_field_updates(f, per_field[f])
         return result
 
     def _resolve_cancellation(self, conn, graph, events: list[dict],

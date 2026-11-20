@@ -10,6 +10,7 @@ trap 'rm -rf "$WORK"' EXIT
 
 echo "== 1. regenerate synthetic fixtures =="
 python3 -I tests/generate_fixtures.py
+python3 -I tests/generate_landing_fixtures.py
 
 echo "== 2. build main-suite warehouse =="
 python3 -I - "$WORK" <<'PY'
@@ -36,5 +37,18 @@ python3 -I tests/test_cancellation.py
 
 echo "== 6. identity graph scale (deep chain / wide fork, bounded memory) =="
 python3 -I tests/test_identity_scale.py
+
+echo "== 7. landing-fee mart: independent walkthrough/edge oracle =="
+python3 -I tests/check_landing_mart.py "$WORK/landing_check"
+
+echo "== 8. landing-fee mart: rejection / atomicity / idempotency / ledger =="
+python3 -I tests/test_landing_mart.py
+
+if [ "${LANDING_SCALE:-0}" = "1" ]; then
+  echo "== 9. landing-fee mart: 30k-root / 120k-message scale rehearsal =="
+  python3 -I tests/scale_landing.py
+else
+  echo "== 9. scale rehearsal skipped (set LANDING_SCALE=1 to run) =="
+fi
 
 echo "ALL GATES PASSED"

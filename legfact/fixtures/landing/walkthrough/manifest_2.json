@@ -1,0 +1,13 @@
+{
+  "file_count": 1,
+  "files": [
+    {
+      "kind": "aidx_xml",
+      "path": "msg_A_corr.xml",
+      "sha256": "7032c4881d59b19818bd32b30bbbbd7e5371b2c20575e0d10c01c9533d8091fa",
+      "size_bytes": 726
+    }
+  ],
+  "receipt_batch": 2,
+  "sender": "SHA-OCC"
+}
