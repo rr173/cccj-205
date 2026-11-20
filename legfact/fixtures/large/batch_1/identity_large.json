@@ -1,0 +1,6404 @@
+{
+  "relations": [
+    {
+      "id": "IL-7000",
+      "type": "initial_leg",
+      "root_id": "R7000",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7000",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7000"
+    },
+    {
+      "id": "IL-7001",
+      "type": "initial_leg",
+      "root_id": "R7001",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7001",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7001"
+    },
+    {
+      "id": "IL-7002",
+      "type": "initial_leg",
+      "root_id": "R7002",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7002",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7002"
+    },
+    {
+      "id": "IL-7003",
+      "type": "initial_leg",
+      "root_id": "R7003",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7003",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7003"
+    },
+    {
+      "id": "IL-7004",
+      "type": "initial_leg",
+      "root_id": "R7004",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7004",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7004"
+    },
+    {
+      "id": "IL-7005",
+      "type": "initial_leg",
+      "root_id": "R7005",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7005",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7005"
+    },
+    {
+      "id": "IL-7006",
+      "type": "initial_leg",
+      "root_id": "R7006",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7006",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7006"
+    },
+    {
+      "id": "IL-7007",
+      "type": "initial_leg",
+      "root_id": "R7007",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7007",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7007"
+    },
+    {
+      "id": "IL-7008",
+      "type": "initial_leg",
+      "root_id": "R7008",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7008",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7008"
+    },
+    {
+      "id": "IL-7009",
+      "type": "initial_leg",
+      "root_id": "R7009",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7009",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7009"
+    },
+    {
+      "id": "IL-7010",
+      "type": "initial_leg",
+      "root_id": "R7010",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7010",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7010"
+    },
+    {
+      "id": "IL-7011",
+      "type": "initial_leg",
+      "root_id": "R7011",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7011",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7011"
+    },
+    {
+      "id": "IL-7012",
+      "type": "initial_leg",
+      "root_id": "R7012",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7012",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7012"
+    },
+    {
+      "id": "IL-7013",
+      "type": "initial_leg",
+      "root_id": "R7013",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7013",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7013"
+    },
+    {
+      "id": "IL-7014",
+      "type": "initial_leg",
+      "root_id": "R7014",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7014",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7014"
+    },
+    {
+      "id": "IL-7015",
+      "type": "initial_leg",
+      "root_id": "R7015",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7015",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7015"
+    },
+    {
+      "id": "IL-7016",
+      "type": "initial_leg",
+      "root_id": "R7016",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7016",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7016"
+    },
+    {
+      "id": "IL-7017",
+      "type": "initial_leg",
+      "root_id": "R7017",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7017",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7017"
+    },
+    {
+      "id": "IL-7018",
+      "type": "initial_leg",
+      "root_id": "R7018",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7018",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7018"
+    },
+    {
+      "id": "IL-7019",
+      "type": "initial_leg",
+      "root_id": "R7019",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7019",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7019"
+    },
+    {
+      "id": "IL-7020",
+      "type": "initial_leg",
+      "root_id": "R7020",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7020",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7020"
+    },
+    {
+      "id": "IL-7021",
+      "type": "initial_leg",
+      "root_id": "R7021",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7021",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7021"
+    },
+    {
+      "id": "IL-7022",
+      "type": "initial_leg",
+      "root_id": "R7022",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7022",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7022"
+    },
+    {
+      "id": "IL-7023",
+      "type": "initial_leg",
+      "root_id": "R7023",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7023",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7023"
+    },
+    {
+      "id": "IL-7024",
+      "type": "initial_leg",
+      "root_id": "R7024",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7024",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7024"
+    },
+    {
+      "id": "IL-7025",
+      "type": "initial_leg",
+      "root_id": "R7025",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7025",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7025"
+    },
+    {
+      "id": "IL-7026",
+      "type": "initial_leg",
+      "root_id": "R7026",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7026",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7026"
+    },
+    {
+      "id": "IL-7027",
+      "type": "initial_leg",
+      "root_id": "R7027",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7027",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7027"
+    },
+    {
+      "id": "IL-7028",
+      "type": "initial_leg",
+      "root_id": "R7028",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7028",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7028"
+    },
+    {
+      "id": "IL-7029",
+      "type": "initial_leg",
+      "root_id": "R7029",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7029",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7029"
+    },
+    {
+      "id": "IL-7030",
+      "type": "initial_leg",
+      "root_id": "R7030",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7030",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7030"
+    },
+    {
+      "id": "IL-7031",
+      "type": "initial_leg",
+      "root_id": "R7031",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7031",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7031"
+    },
+    {
+      "id": "IL-7032",
+      "type": "initial_leg",
+      "root_id": "R7032",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7032",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7032"
+    },
+    {
+      "id": "IL-7033",
+      "type": "initial_leg",
+      "root_id": "R7033",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7033",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7033"
+    },
+    {
+      "id": "IL-7034",
+      "type": "initial_leg",
+      "root_id": "R7034",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7034",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7034"
+    },
+    {
+      "id": "IL-7035",
+      "type": "initial_leg",
+      "root_id": "R7035",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7035",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7035"
+    },
+    {
+      "id": "IL-7036",
+      "type": "initial_leg",
+      "root_id": "R7036",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7036",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7036"
+    },
+    {
+      "id": "IL-7037",
+      "type": "initial_leg",
+      "root_id": "R7037",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7037",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7037"
+    },
+    {
+      "id": "IL-7038",
+      "type": "initial_leg",
+      "root_id": "R7038",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7038",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7038"
+    },
+    {
+      "id": "IL-7039",
+      "type": "initial_leg",
+      "root_id": "R7039",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7039",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7039"
+    },
+    {
+      "id": "IL-7040",
+      "type": "initial_leg",
+      "root_id": "R7040",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7040",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7040"
+    },
+    {
+      "id": "IL-7041",
+      "type": "initial_leg",
+      "root_id": "R7041",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7041",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7041"
+    },
+    {
+      "id": "IL-7042",
+      "type": "initial_leg",
+      "root_id": "R7042",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7042",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7042"
+    },
+    {
+      "id": "IL-7043",
+      "type": "initial_leg",
+      "root_id": "R7043",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7043",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7043"
+    },
+    {
+      "id": "IL-7044",
+      "type": "initial_leg",
+      "root_id": "R7044",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7044",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7044"
+    },
+    {
+      "id": "IL-7045",
+      "type": "initial_leg",
+      "root_id": "R7045",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7045",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7045"
+    },
+    {
+      "id": "IL-7046",
+      "type": "initial_leg",
+      "root_id": "R7046",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7046",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7046"
+    },
+    {
+      "id": "IL-7047",
+      "type": "initial_leg",
+      "root_id": "R7047",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7047",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7047"
+    },
+    {
+      "id": "IL-7048",
+      "type": "initial_leg",
+      "root_id": "R7048",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7048",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7048"
+    },
+    {
+      "id": "IL-7049",
+      "type": "initial_leg",
+      "root_id": "R7049",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7049",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7049"
+    },
+    {
+      "id": "IL-7050",
+      "type": "initial_leg",
+      "root_id": "R7050",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7050",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7050"
+    },
+    {
+      "id": "IL-7051",
+      "type": "initial_leg",
+      "root_id": "R7051",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7051",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7051"
+    },
+    {
+      "id": "IL-7052",
+      "type": "initial_leg",
+      "root_id": "R7052",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7052",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7052"
+    },
+    {
+      "id": "IL-7053",
+      "type": "initial_leg",
+      "root_id": "R7053",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7053",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7053"
+    },
+    {
+      "id": "IL-7054",
+      "type": "initial_leg",
+      "root_id": "R7054",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7054",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7054"
+    },
+    {
+      "id": "IL-7055",
+      "type": "initial_leg",
+      "root_id": "R7055",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7055",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7055"
+    },
+    {
+      "id": "IL-7056",
+      "type": "initial_leg",
+      "root_id": "R7056",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7056",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7056"
+    },
+    {
+      "id": "IL-7057",
+      "type": "initial_leg",
+      "root_id": "R7057",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7057",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7057"
+    },
+    {
+      "id": "IL-7058",
+      "type": "initial_leg",
+      "root_id": "R7058",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7058",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7058"
+    },
+    {
+      "id": "IL-7059",
+      "type": "initial_leg",
+      "root_id": "R7059",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7059",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7059"
+    },
+    {
+      "id": "IL-7060",
+      "type": "initial_leg",
+      "root_id": "R7060",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7060",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7060"
+    },
+    {
+      "id": "IL-7061",
+      "type": "initial_leg",
+      "root_id": "R7061",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7061",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7061"
+    },
+    {
+      "id": "IL-7062",
+      "type": "initial_leg",
+      "root_id": "R7062",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7062",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7062"
+    },
+    {
+      "id": "IL-7063",
+      "type": "initial_leg",
+      "root_id": "R7063",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7063",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7063"
+    },
+    {
+      "id": "IL-7064",
+      "type": "initial_leg",
+      "root_id": "R7064",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7064",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7064"
+    },
+    {
+      "id": "IL-7065",
+      "type": "initial_leg",
+      "root_id": "R7065",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7065",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7065"
+    },
+    {
+      "id": "IL-7066",
+      "type": "initial_leg",
+      "root_id": "R7066",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7066",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7066"
+    },
+    {
+      "id": "IL-7067",
+      "type": "initial_leg",
+      "root_id": "R7067",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7067",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7067"
+    },
+    {
+      "id": "IL-7068",
+      "type": "initial_leg",
+      "root_id": "R7068",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7068",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7068"
+    },
+    {
+      "id": "IL-7069",
+      "type": "initial_leg",
+      "root_id": "R7069",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7069",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7069"
+    },
+    {
+      "id": "IL-7070",
+      "type": "initial_leg",
+      "root_id": "R7070",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7070",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7070"
+    },
+    {
+      "id": "IL-7071",
+      "type": "initial_leg",
+      "root_id": "R7071",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7071",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7071"
+    },
+    {
+      "id": "IL-7072",
+      "type": "initial_leg",
+      "root_id": "R7072",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7072",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7072"
+    },
+    {
+      "id": "IL-7073",
+      "type": "initial_leg",
+      "root_id": "R7073",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7073",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7073"
+    },
+    {
+      "id": "IL-7074",
+      "type": "initial_leg",
+      "root_id": "R7074",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7074",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7074"
+    },
+    {
+      "id": "IL-7075",
+      "type": "initial_leg",
+      "root_id": "R7075",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7075",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7075"
+    },
+    {
+      "id": "IL-7076",
+      "type": "initial_leg",
+      "root_id": "R7076",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7076",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7076"
+    },
+    {
+      "id": "IL-7077",
+      "type": "initial_leg",
+      "root_id": "R7077",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7077",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7077"
+    },
+    {
+      "id": "IL-7078",
+      "type": "initial_leg",
+      "root_id": "R7078",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7078",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7078"
+    },
+    {
+      "id": "IL-7079",
+      "type": "initial_leg",
+      "root_id": "R7079",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7079",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7079"
+    },
+    {
+      "id": "IL-7080",
+      "type": "initial_leg",
+      "root_id": "R7080",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7080",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7080"
+    },
+    {
+      "id": "IL-7081",
+      "type": "initial_leg",
+      "root_id": "R7081",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7081",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7081"
+    },
+    {
+      "id": "IL-7082",
+      "type": "initial_leg",
+      "root_id": "R7082",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7082",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7082"
+    },
+    {
+      "id": "IL-7083",
+      "type": "initial_leg",
+      "root_id": "R7083",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7083",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7083"
+    },
+    {
+      "id": "IL-7084",
+      "type": "initial_leg",
+      "root_id": "R7084",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7084",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7084"
+    },
+    {
+      "id": "IL-7085",
+      "type": "initial_leg",
+      "root_id": "R7085",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7085",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7085"
+    },
+    {
+      "id": "IL-7086",
+      "type": "initial_leg",
+      "root_id": "R7086",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7086",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7086"
+    },
+    {
+      "id": "IL-7087",
+      "type": "initial_leg",
+      "root_id": "R7087",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7087",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7087"
+    },
+    {
+      "id": "IL-7088",
+      "type": "initial_leg",
+      "root_id": "R7088",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7088",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7088"
+    },
+    {
+      "id": "IL-7089",
+      "type": "initial_leg",
+      "root_id": "R7089",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7089",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7089"
+    },
+    {
+      "id": "IL-7090",
+      "type": "initial_leg",
+      "root_id": "R7090",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7090",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7090"
+    },
+    {
+      "id": "IL-7091",
+      "type": "initial_leg",
+      "root_id": "R7091",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7091",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7091"
+    },
+    {
+      "id": "IL-7092",
+      "type": "initial_leg",
+      "root_id": "R7092",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7092",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7092"
+    },
+    {
+      "id": "IL-7093",
+      "type": "initial_leg",
+      "root_id": "R7093",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7093",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7093"
+    },
+    {
+      "id": "IL-7094",
+      "type": "initial_leg",
+      "root_id": "R7094",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7094",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7094"
+    },
+    {
+      "id": "IL-7095",
+      "type": "initial_leg",
+      "root_id": "R7095",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7095",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7095"
+    },
+    {
+      "id": "IL-7096",
+      "type": "initial_leg",
+      "root_id": "R7096",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7096",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7096"
+    },
+    {
+      "id": "IL-7097",
+      "type": "initial_leg",
+      "root_id": "R7097",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7097",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7097"
+    },
+    {
+      "id": "IL-7098",
+      "type": "initial_leg",
+      "root_id": "R7098",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7098",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7098"
+    },
+    {
+      "id": "IL-7099",
+      "type": "initial_leg",
+      "root_id": "R7099",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7099",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7099"
+    },
+    {
+      "id": "IL-7100",
+      "type": "initial_leg",
+      "root_id": "R7100",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7100",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7100"
+    },
+    {
+      "id": "IL-7101",
+      "type": "initial_leg",
+      "root_id": "R7101",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7101",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7101"
+    },
+    {
+      "id": "IL-7102",
+      "type": "initial_leg",
+      "root_id": "R7102",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7102",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7102"
+    },
+    {
+      "id": "IL-7103",
+      "type": "initial_leg",
+      "root_id": "R7103",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7103",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7103"
+    },
+    {
+      "id": "IL-7104",
+      "type": "initial_leg",
+      "root_id": "R7104",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7104",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7104"
+    },
+    {
+      "id": "IL-7105",
+      "type": "initial_leg",
+      "root_id": "R7105",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7105",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7105"
+    },
+    {
+      "id": "IL-7106",
+      "type": "initial_leg",
+      "root_id": "R7106",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7106",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7106"
+    },
+    {
+      "id": "IL-7107",
+      "type": "initial_leg",
+      "root_id": "R7107",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7107",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7107"
+    },
+    {
+      "id": "IL-7108",
+      "type": "initial_leg",
+      "root_id": "R7108",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7108",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7108"
+    },
+    {
+      "id": "IL-7109",
+      "type": "initial_leg",
+      "root_id": "R7109",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7109",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7109"
+    },
+    {
+      "id": "IL-7110",
+      "type": "initial_leg",
+      "root_id": "R7110",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7110",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7110"
+    },
+    {
+      "id": "IL-7111",
+      "type": "initial_leg",
+      "root_id": "R7111",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7111",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7111"
+    },
+    {
+      "id": "IL-7112",
+      "type": "initial_leg",
+      "root_id": "R7112",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7112",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7112"
+    },
+    {
+      "id": "IL-7113",
+      "type": "initial_leg",
+      "root_id": "R7113",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7113",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7113"
+    },
+    {
+      "id": "IL-7114",
+      "type": "initial_leg",
+      "root_id": "R7114",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7114",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7114"
+    },
+    {
+      "id": "IL-7115",
+      "type": "initial_leg",
+      "root_id": "R7115",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7115",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7115"
+    },
+    {
+      "id": "IL-7116",
+      "type": "initial_leg",
+      "root_id": "R7116",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7116",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7116"
+    },
+    {
+      "id": "IL-7117",
+      "type": "initial_leg",
+      "root_id": "R7117",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7117",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7117"
+    },
+    {
+      "id": "IL-7118",
+      "type": "initial_leg",
+      "root_id": "R7118",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7118",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7118"
+    },
+    {
+      "id": "IL-7119",
+      "type": "initial_leg",
+      "root_id": "R7119",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7119",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7119"
+    },
+    {
+      "id": "IL-7120",
+      "type": "initial_leg",
+      "root_id": "R7120",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7120",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7120"
+    },
+    {
+      "id": "IL-7121",
+      "type": "initial_leg",
+      "root_id": "R7121",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7121",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7121"
+    },
+    {
+      "id": "IL-7122",
+      "type": "initial_leg",
+      "root_id": "R7122",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7122",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7122"
+    },
+    {
+      "id": "IL-7123",
+      "type": "initial_leg",
+      "root_id": "R7123",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7123",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7123"
+    },
+    {
+      "id": "IL-7124",
+      "type": "initial_leg",
+      "root_id": "R7124",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7124",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7124"
+    },
+    {
+      "id": "IL-7125",
+      "type": "initial_leg",
+      "root_id": "R7125",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7125",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7125"
+    },
+    {
+      "id": "IL-7126",
+      "type": "initial_leg",
+      "root_id": "R7126",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7126",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7126"
+    },
+    {
+      "id": "IL-7127",
+      "type": "initial_leg",
+      "root_id": "R7127",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7127",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7127"
+    },
+    {
+      "id": "IL-7128",
+      "type": "initial_leg",
+      "root_id": "R7128",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7128",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7128"
+    },
+    {
+      "id": "IL-7129",
+      "type": "initial_leg",
+      "root_id": "R7129",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7129",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7129"
+    },
+    {
+      "id": "IL-7130",
+      "type": "initial_leg",
+      "root_id": "R7130",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7130",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7130"
+    },
+    {
+      "id": "IL-7131",
+      "type": "initial_leg",
+      "root_id": "R7131",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7131",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7131"
+    },
+    {
+      "id": "IL-7132",
+      "type": "initial_leg",
+      "root_id": "R7132",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7132",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7132"
+    },
+    {
+      "id": "IL-7133",
+      "type": "initial_leg",
+      "root_id": "R7133",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7133",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7133"
+    },
+    {
+      "id": "IL-7134",
+      "type": "initial_leg",
+      "root_id": "R7134",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7134",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7134"
+    },
+    {
+      "id": "IL-7135",
+      "type": "initial_leg",
+      "root_id": "R7135",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7135",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7135"
+    },
+    {
+      "id": "IL-7136",
+      "type": "initial_leg",
+      "root_id": "R7136",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7136",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7136"
+    },
+    {
+      "id": "IL-7137",
+      "type": "initial_leg",
+      "root_id": "R7137",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7137",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7137"
+    },
+    {
+      "id": "IL-7138",
+      "type": "initial_leg",
+      "root_id": "R7138",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7138",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7138"
+    },
+    {
+      "id": "IL-7139",
+      "type": "initial_leg",
+      "root_id": "R7139",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7139",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7139"
+    },
+    {
+      "id": "IL-7140",
+      "type": "initial_leg",
+      "root_id": "R7140",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7140",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7140"
+    },
+    {
+      "id": "IL-7141",
+      "type": "initial_leg",
+      "root_id": "R7141",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7141",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7141"
+    },
+    {
+      "id": "IL-7142",
+      "type": "initial_leg",
+      "root_id": "R7142",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7142",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7142"
+    },
+    {
+      "id": "IL-7143",
+      "type": "initial_leg",
+      "root_id": "R7143",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7143",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7143"
+    },
+    {
+      "id": "IL-7144",
+      "type": "initial_leg",
+      "root_id": "R7144",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7144",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7144"
+    },
+    {
+      "id": "IL-7145",
+      "type": "initial_leg",
+      "root_id": "R7145",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7145",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7145"
+    },
+    {
+      "id": "IL-7146",
+      "type": "initial_leg",
+      "root_id": "R7146",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7146",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7146"
+    },
+    {
+      "id": "IL-7147",
+      "type": "initial_leg",
+      "root_id": "R7147",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7147",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7147"
+    },
+    {
+      "id": "IL-7148",
+      "type": "initial_leg",
+      "root_id": "R7148",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7148",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7148"
+    },
+    {
+      "id": "IL-7149",
+      "type": "initial_leg",
+      "root_id": "R7149",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7149",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7149"
+    },
+    {
+      "id": "IL-7150",
+      "type": "initial_leg",
+      "root_id": "R7150",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7150",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7150"
+    },
+    {
+      "id": "IL-7151",
+      "type": "initial_leg",
+      "root_id": "R7151",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7151",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7151"
+    },
+    {
+      "id": "IL-7152",
+      "type": "initial_leg",
+      "root_id": "R7152",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7152",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7152"
+    },
+    {
+      "id": "IL-7153",
+      "type": "initial_leg",
+      "root_id": "R7153",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7153",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7153"
+    },
+    {
+      "id": "IL-7154",
+      "type": "initial_leg",
+      "root_id": "R7154",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7154",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7154"
+    },
+    {
+      "id": "IL-7155",
+      "type": "initial_leg",
+      "root_id": "R7155",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7155",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7155"
+    },
+    {
+      "id": "IL-7156",
+      "type": "initial_leg",
+      "root_id": "R7156",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7156",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7156"
+    },
+    {
+      "id": "IL-7157",
+      "type": "initial_leg",
+      "root_id": "R7157",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7157",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7157"
+    },
+    {
+      "id": "IL-7158",
+      "type": "initial_leg",
+      "root_id": "R7158",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7158",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7158"
+    },
+    {
+      "id": "IL-7159",
+      "type": "initial_leg",
+      "root_id": "R7159",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7159",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7159"
+    },
+    {
+      "id": "IL-7160",
+      "type": "initial_leg",
+      "root_id": "R7160",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7160",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7160"
+    },
+    {
+      "id": "IL-7161",
+      "type": "initial_leg",
+      "root_id": "R7161",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7161",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7161"
+    },
+    {
+      "id": "IL-7162",
+      "type": "initial_leg",
+      "root_id": "R7162",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7162",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7162"
+    },
+    {
+      "id": "IL-7163",
+      "type": "initial_leg",
+      "root_id": "R7163",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7163",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7163"
+    },
+    {
+      "id": "IL-7164",
+      "type": "initial_leg",
+      "root_id": "R7164",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7164",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7164"
+    },
+    {
+      "id": "IL-7165",
+      "type": "initial_leg",
+      "root_id": "R7165",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7165",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7165"
+    },
+    {
+      "id": "IL-7166",
+      "type": "initial_leg",
+      "root_id": "R7166",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7166",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7166"
+    },
+    {
+      "id": "IL-7167",
+      "type": "initial_leg",
+      "root_id": "R7167",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7167",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7167"
+    },
+    {
+      "id": "IL-7168",
+      "type": "initial_leg",
+      "root_id": "R7168",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7168",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7168"
+    },
+    {
+      "id": "IL-7169",
+      "type": "initial_leg",
+      "root_id": "R7169",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7169",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7169"
+    },
+    {
+      "id": "IL-7170",
+      "type": "initial_leg",
+      "root_id": "R7170",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7170",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7170"
+    },
+    {
+      "id": "IL-7171",
+      "type": "initial_leg",
+      "root_id": "R7171",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7171",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7171"
+    },
+    {
+      "id": "IL-7172",
+      "type": "initial_leg",
+      "root_id": "R7172",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7172",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7172"
+    },
+    {
+      "id": "IL-7173",
+      "type": "initial_leg",
+      "root_id": "R7173",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7173",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7173"
+    },
+    {
+      "id": "IL-7174",
+      "type": "initial_leg",
+      "root_id": "R7174",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7174",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7174"
+    },
+    {
+      "id": "IL-7175",
+      "type": "initial_leg",
+      "root_id": "R7175",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7175",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7175"
+    },
+    {
+      "id": "IL-7176",
+      "type": "initial_leg",
+      "root_id": "R7176",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7176",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7176"
+    },
+    {
+      "id": "IL-7177",
+      "type": "initial_leg",
+      "root_id": "R7177",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7177",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7177"
+    },
+    {
+      "id": "IL-7178",
+      "type": "initial_leg",
+      "root_id": "R7178",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7178",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7178"
+    },
+    {
+      "id": "IL-7179",
+      "type": "initial_leg",
+      "root_id": "R7179",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7179",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7179"
+    },
+    {
+      "id": "IL-7180",
+      "type": "initial_leg",
+      "root_id": "R7180",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7180",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7180"
+    },
+    {
+      "id": "IL-7181",
+      "type": "initial_leg",
+      "root_id": "R7181",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7181",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7181"
+    },
+    {
+      "id": "IL-7182",
+      "type": "initial_leg",
+      "root_id": "R7182",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7182",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7182"
+    },
+    {
+      "id": "IL-7183",
+      "type": "initial_leg",
+      "root_id": "R7183",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7183",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7183"
+    },
+    {
+      "id": "IL-7184",
+      "type": "initial_leg",
+      "root_id": "R7184",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7184",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7184"
+    },
+    {
+      "id": "IL-7185",
+      "type": "initial_leg",
+      "root_id": "R7185",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7185",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7185"
+    },
+    {
+      "id": "IL-7186",
+      "type": "initial_leg",
+      "root_id": "R7186",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7186",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7186"
+    },
+    {
+      "id": "IL-7187",
+      "type": "initial_leg",
+      "root_id": "R7187",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7187",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7187"
+    },
+    {
+      "id": "IL-7188",
+      "type": "initial_leg",
+      "root_id": "R7188",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7188",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7188"
+    },
+    {
+      "id": "IL-7189",
+      "type": "initial_leg",
+      "root_id": "R7189",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7189",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7189"
+    },
+    {
+      "id": "IL-7190",
+      "type": "initial_leg",
+      "root_id": "R7190",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7190",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7190"
+    },
+    {
+      "id": "IL-7191",
+      "type": "initial_leg",
+      "root_id": "R7191",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7191",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7191"
+    },
+    {
+      "id": "IL-7192",
+      "type": "initial_leg",
+      "root_id": "R7192",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7192",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7192"
+    },
+    {
+      "id": "IL-7193",
+      "type": "initial_leg",
+      "root_id": "R7193",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7193",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7193"
+    },
+    {
+      "id": "IL-7194",
+      "type": "initial_leg",
+      "root_id": "R7194",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7194",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7194"
+    },
+    {
+      "id": "IL-7195",
+      "type": "initial_leg",
+      "root_id": "R7195",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7195",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7195"
+    },
+    {
+      "id": "IL-7196",
+      "type": "initial_leg",
+      "root_id": "R7196",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7196",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7196"
+    },
+    {
+      "id": "IL-7197",
+      "type": "initial_leg",
+      "root_id": "R7197",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7197",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7197"
+    },
+    {
+      "id": "IL-7198",
+      "type": "initial_leg",
+      "root_id": "R7198",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7198",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7198"
+    },
+    {
+      "id": "IL-7199",
+      "type": "initial_leg",
+      "root_id": "R7199",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7199",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7199"
+    },
+    {
+      "id": "IL-7200",
+      "type": "initial_leg",
+      "root_id": "R7200",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7200",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7200"
+    },
+    {
+      "id": "IL-7201",
+      "type": "initial_leg",
+      "root_id": "R7201",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7201",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7201"
+    },
+    {
+      "id": "IL-7202",
+      "type": "initial_leg",
+      "root_id": "R7202",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7202",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7202"
+    },
+    {
+      "id": "IL-7203",
+      "type": "initial_leg",
+      "root_id": "R7203",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7203",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7203"
+    },
+    {
+      "id": "IL-7204",
+      "type": "initial_leg",
+      "root_id": "R7204",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7204",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7204"
+    },
+    {
+      "id": "IL-7205",
+      "type": "initial_leg",
+      "root_id": "R7205",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7205",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7205"
+    },
+    {
+      "id": "IL-7206",
+      "type": "initial_leg",
+      "root_id": "R7206",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7206",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7206"
+    },
+    {
+      "id": "IL-7207",
+      "type": "initial_leg",
+      "root_id": "R7207",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7207",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7207"
+    },
+    {
+      "id": "IL-7208",
+      "type": "initial_leg",
+      "root_id": "R7208",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7208",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7208"
+    },
+    {
+      "id": "IL-7209",
+      "type": "initial_leg",
+      "root_id": "R7209",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7209",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7209"
+    },
+    {
+      "id": "IL-7210",
+      "type": "initial_leg",
+      "root_id": "R7210",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7210",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7210"
+    },
+    {
+      "id": "IL-7211",
+      "type": "initial_leg",
+      "root_id": "R7211",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7211",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7211"
+    },
+    {
+      "id": "IL-7212",
+      "type": "initial_leg",
+      "root_id": "R7212",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7212",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7212"
+    },
+    {
+      "id": "IL-7213",
+      "type": "initial_leg",
+      "root_id": "R7213",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7213",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7213"
+    },
+    {
+      "id": "IL-7214",
+      "type": "initial_leg",
+      "root_id": "R7214",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7214",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7214"
+    },
+    {
+      "id": "IL-7215",
+      "type": "initial_leg",
+      "root_id": "R7215",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7215",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7215"
+    },
+    {
+      "id": "IL-7216",
+      "type": "initial_leg",
+      "root_id": "R7216",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7216",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7216"
+    },
+    {
+      "id": "IL-7217",
+      "type": "initial_leg",
+      "root_id": "R7217",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7217",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7217"
+    },
+    {
+      "id": "IL-7218",
+      "type": "initial_leg",
+      "root_id": "R7218",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7218",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7218"
+    },
+    {
+      "id": "IL-7219",
+      "type": "initial_leg",
+      "root_id": "R7219",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7219",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7219"
+    },
+    {
+      "id": "IL-7220",
+      "type": "initial_leg",
+      "root_id": "R7220",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7220",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7220"
+    },
+    {
+      "id": "IL-7221",
+      "type": "initial_leg",
+      "root_id": "R7221",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7221",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7221"
+    },
+    {
+      "id": "IL-7222",
+      "type": "initial_leg",
+      "root_id": "R7222",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7222",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7222"
+    },
+    {
+      "id": "IL-7223",
+      "type": "initial_leg",
+      "root_id": "R7223",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7223",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7223"
+    },
+    {
+      "id": "IL-7224",
+      "type": "initial_leg",
+      "root_id": "R7224",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7224",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7224"
+    },
+    {
+      "id": "IL-7225",
+      "type": "initial_leg",
+      "root_id": "R7225",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7225",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7225"
+    },
+    {
+      "id": "IL-7226",
+      "type": "initial_leg",
+      "root_id": "R7226",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7226",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7226"
+    },
+    {
+      "id": "IL-7227",
+      "type": "initial_leg",
+      "root_id": "R7227",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7227",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7227"
+    },
+    {
+      "id": "IL-7228",
+      "type": "initial_leg",
+      "root_id": "R7228",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7228",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7228"
+    },
+    {
+      "id": "IL-7229",
+      "type": "initial_leg",
+      "root_id": "R7229",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7229",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7229"
+    },
+    {
+      "id": "IL-7230",
+      "type": "initial_leg",
+      "root_id": "R7230",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7230",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7230"
+    },
+    {
+      "id": "IL-7231",
+      "type": "initial_leg",
+      "root_id": "R7231",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7231",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7231"
+    },
+    {
+      "id": "IL-7232",
+      "type": "initial_leg",
+      "root_id": "R7232",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7232",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7232"
+    },
+    {
+      "id": "IL-7233",
+      "type": "initial_leg",
+      "root_id": "R7233",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7233",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7233"
+    },
+    {
+      "id": "IL-7234",
+      "type": "initial_leg",
+      "root_id": "R7234",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7234",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7234"
+    },
+    {
+      "id": "IL-7235",
+      "type": "initial_leg",
+      "root_id": "R7235",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7235",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7235"
+    },
+    {
+      "id": "IL-7236",
+      "type": "initial_leg",
+      "root_id": "R7236",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7236",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7236"
+    },
+    {
+      "id": "IL-7237",
+      "type": "initial_leg",
+      "root_id": "R7237",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7237",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7237"
+    },
+    {
+      "id": "IL-7238",
+      "type": "initial_leg",
+      "root_id": "R7238",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7238",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7238"
+    },
+    {
+      "id": "IL-7239",
+      "type": "initial_leg",
+      "root_id": "R7239",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7239",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7239"
+    },
+    {
+      "id": "IL-7240",
+      "type": "initial_leg",
+      "root_id": "R7240",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7240",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7240"
+    },
+    {
+      "id": "IL-7241",
+      "type": "initial_leg",
+      "root_id": "R7241",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7241",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7241"
+    },
+    {
+      "id": "IL-7242",
+      "type": "initial_leg",
+      "root_id": "R7242",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7242",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7242"
+    },
+    {
+      "id": "IL-7243",
+      "type": "initial_leg",
+      "root_id": "R7243",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7243",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7243"
+    },
+    {
+      "id": "IL-7244",
+      "type": "initial_leg",
+      "root_id": "R7244",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7244",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7244"
+    },
+    {
+      "id": "IL-7245",
+      "type": "initial_leg",
+      "root_id": "R7245",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7245",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7245"
+    },
+    {
+      "id": "IL-7246",
+      "type": "initial_leg",
+      "root_id": "R7246",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7246",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7246"
+    },
+    {
+      "id": "IL-7247",
+      "type": "initial_leg",
+      "root_id": "R7247",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7247",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7247"
+    },
+    {
+      "id": "IL-7248",
+      "type": "initial_leg",
+      "root_id": "R7248",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7248",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7248"
+    },
+    {
+      "id": "IL-7249",
+      "type": "initial_leg",
+      "root_id": "R7249",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7249",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7249"
+    },
+    {
+      "id": "IL-7250",
+      "type": "initial_leg",
+      "root_id": "R7250",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7250",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7250"
+    },
+    {
+      "id": "IL-7251",
+      "type": "initial_leg",
+      "root_id": "R7251",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7251",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7251"
+    },
+    {
+      "id": "IL-7252",
+      "type": "initial_leg",
+      "root_id": "R7252",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7252",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7252"
+    },
+    {
+      "id": "IL-7253",
+      "type": "initial_leg",
+      "root_id": "R7253",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7253",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7253"
+    },
+    {
+      "id": "IL-7254",
+      "type": "initial_leg",
+      "root_id": "R7254",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7254",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7254"
+    },
+    {
+      "id": "IL-7255",
+      "type": "initial_leg",
+      "root_id": "R7255",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7255",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7255"
+    },
+    {
+      "id": "IL-7256",
+      "type": "initial_leg",
+      "root_id": "R7256",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7256",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7256"
+    },
+    {
+      "id": "IL-7257",
+      "type": "initial_leg",
+      "root_id": "R7257",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7257",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7257"
+    },
+    {
+      "id": "IL-7258",
+      "type": "initial_leg",
+      "root_id": "R7258",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7258",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7258"
+    },
+    {
+      "id": "IL-7259",
+      "type": "initial_leg",
+      "root_id": "R7259",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7259",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7259"
+    },
+    {
+      "id": "IL-7260",
+      "type": "initial_leg",
+      "root_id": "R7260",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7260",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7260"
+    },
+    {
+      "id": "IL-7261",
+      "type": "initial_leg",
+      "root_id": "R7261",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7261",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7261"
+    },
+    {
+      "id": "IL-7262",
+      "type": "initial_leg",
+      "root_id": "R7262",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7262",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7262"
+    },
+    {
+      "id": "IL-7263",
+      "type": "initial_leg",
+      "root_id": "R7263",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7263",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7263"
+    },
+    {
+      "id": "IL-7264",
+      "type": "initial_leg",
+      "root_id": "R7264",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7264",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7264"
+    },
+    {
+      "id": "IL-7265",
+      "type": "initial_leg",
+      "root_id": "R7265",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7265",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7265"
+    },
+    {
+      "id": "IL-7266",
+      "type": "initial_leg",
+      "root_id": "R7266",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7266",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7266"
+    },
+    {
+      "id": "IL-7267",
+      "type": "initial_leg",
+      "root_id": "R7267",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7267",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7267"
+    },
+    {
+      "id": "IL-7268",
+      "type": "initial_leg",
+      "root_id": "R7268",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7268",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7268"
+    },
+    {
+      "id": "IL-7269",
+      "type": "initial_leg",
+      "root_id": "R7269",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7269",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7269"
+    },
+    {
+      "id": "IL-7270",
+      "type": "initial_leg",
+      "root_id": "R7270",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7270",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7270"
+    },
+    {
+      "id": "IL-7271",
+      "type": "initial_leg",
+      "root_id": "R7271",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7271",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7271"
+    },
+    {
+      "id": "IL-7272",
+      "type": "initial_leg",
+      "root_id": "R7272",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7272",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7272"
+    },
+    {
+      "id": "IL-7273",
+      "type": "initial_leg",
+      "root_id": "R7273",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7273",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7273"
+    },
+    {
+      "id": "IL-7274",
+      "type": "initial_leg",
+      "root_id": "R7274",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7274",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7274"
+    },
+    {
+      "id": "IL-7275",
+      "type": "initial_leg",
+      "root_id": "R7275",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7275",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7275"
+    },
+    {
+      "id": "IL-7276",
+      "type": "initial_leg",
+      "root_id": "R7276",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7276",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7276"
+    },
+    {
+      "id": "IL-7277",
+      "type": "initial_leg",
+      "root_id": "R7277",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7277",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7277"
+    },
+    {
+      "id": "IL-7278",
+      "type": "initial_leg",
+      "root_id": "R7278",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7278",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7278"
+    },
+    {
+      "id": "IL-7279",
+      "type": "initial_leg",
+      "root_id": "R7279",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7279",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7279"
+    },
+    {
+      "id": "IL-7280",
+      "type": "initial_leg",
+      "root_id": "R7280",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7280",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7280"
+    },
+    {
+      "id": "IL-7281",
+      "type": "initial_leg",
+      "root_id": "R7281",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7281",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7281"
+    },
+    {
+      "id": "IL-7282",
+      "type": "initial_leg",
+      "root_id": "R7282",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7282",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7282"
+    },
+    {
+      "id": "IL-7283",
+      "type": "initial_leg",
+      "root_id": "R7283",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7283",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7283"
+    },
+    {
+      "id": "IL-7284",
+      "type": "initial_leg",
+      "root_id": "R7284",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7284",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7284"
+    },
+    {
+      "id": "IL-7285",
+      "type": "initial_leg",
+      "root_id": "R7285",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7285",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7285"
+    },
+    {
+      "id": "IL-7286",
+      "type": "initial_leg",
+      "root_id": "R7286",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7286",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7286"
+    },
+    {
+      "id": "IL-7287",
+      "type": "initial_leg",
+      "root_id": "R7287",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7287",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7287"
+    },
+    {
+      "id": "IL-7288",
+      "type": "initial_leg",
+      "root_id": "R7288",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7288",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7288"
+    },
+    {
+      "id": "IL-7289",
+      "type": "initial_leg",
+      "root_id": "R7289",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7289",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7289"
+    },
+    {
+      "id": "IL-7290",
+      "type": "initial_leg",
+      "root_id": "R7290",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7290",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7290"
+    },
+    {
+      "id": "IL-7291",
+      "type": "initial_leg",
+      "root_id": "R7291",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7291",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7291"
+    },
+    {
+      "id": "IL-7292",
+      "type": "initial_leg",
+      "root_id": "R7292",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7292",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7292"
+    },
+    {
+      "id": "IL-7293",
+      "type": "initial_leg",
+      "root_id": "R7293",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7293",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7293"
+    },
+    {
+      "id": "IL-7294",
+      "type": "initial_leg",
+      "root_id": "R7294",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7294",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7294"
+    },
+    {
+      "id": "IL-7295",
+      "type": "initial_leg",
+      "root_id": "R7295",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7295",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7295"
+    },
+    {
+      "id": "IL-7296",
+      "type": "initial_leg",
+      "root_id": "R7296",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7296",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7296"
+    },
+    {
+      "id": "IL-7297",
+      "type": "initial_leg",
+      "root_id": "R7297",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7297",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7297"
+    },
+    {
+      "id": "IL-7298",
+      "type": "initial_leg",
+      "root_id": "R7298",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7298",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7298"
+    },
+    {
+      "id": "IL-7299",
+      "type": "initial_leg",
+      "root_id": "R7299",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7299",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7299"
+    },
+    {
+      "id": "IL-7300",
+      "type": "initial_leg",
+      "root_id": "R7300",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7300",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7300"
+    },
+    {
+      "id": "IL-7301",
+      "type": "initial_leg",
+      "root_id": "R7301",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7301",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7301"
+    },
+    {
+      "id": "IL-7302",
+      "type": "initial_leg",
+      "root_id": "R7302",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7302",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7302"
+    },
+    {
+      "id": "IL-7303",
+      "type": "initial_leg",
+      "root_id": "R7303",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7303",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7303"
+    },
+    {
+      "id": "IL-7304",
+      "type": "initial_leg",
+      "root_id": "R7304",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7304",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7304"
+    },
+    {
+      "id": "IL-7305",
+      "type": "initial_leg",
+      "root_id": "R7305",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7305",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7305"
+    },
+    {
+      "id": "IL-7306",
+      "type": "initial_leg",
+      "root_id": "R7306",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7306",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7306"
+    },
+    {
+      "id": "IL-7307",
+      "type": "initial_leg",
+      "root_id": "R7307",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7307",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7307"
+    },
+    {
+      "id": "IL-7308",
+      "type": "initial_leg",
+      "root_id": "R7308",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7308",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7308"
+    },
+    {
+      "id": "IL-7309",
+      "type": "initial_leg",
+      "root_id": "R7309",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7309",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7309"
+    },
+    {
+      "id": "IL-7310",
+      "type": "initial_leg",
+      "root_id": "R7310",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7310",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7310"
+    },
+    {
+      "id": "IL-7311",
+      "type": "initial_leg",
+      "root_id": "R7311",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7311",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7311"
+    },
+    {
+      "id": "IL-7312",
+      "type": "initial_leg",
+      "root_id": "R7312",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7312",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7312"
+    },
+    {
+      "id": "IL-7313",
+      "type": "initial_leg",
+      "root_id": "R7313",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7313",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7313"
+    },
+    {
+      "id": "IL-7314",
+      "type": "initial_leg",
+      "root_id": "R7314",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7314",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7314"
+    },
+    {
+      "id": "IL-7315",
+      "type": "initial_leg",
+      "root_id": "R7315",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7315",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7315"
+    },
+    {
+      "id": "IL-7316",
+      "type": "initial_leg",
+      "root_id": "R7316",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7316",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7316"
+    },
+    {
+      "id": "IL-7317",
+      "type": "initial_leg",
+      "root_id": "R7317",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7317",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7317"
+    },
+    {
+      "id": "IL-7318",
+      "type": "initial_leg",
+      "root_id": "R7318",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7318",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7318"
+    },
+    {
+      "id": "IL-7319",
+      "type": "initial_leg",
+      "root_id": "R7319",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7319",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7319"
+    },
+    {
+      "id": "IL-7320",
+      "type": "initial_leg",
+      "root_id": "R7320",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7320",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7320"
+    },
+    {
+      "id": "IL-7321",
+      "type": "initial_leg",
+      "root_id": "R7321",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7321",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7321"
+    },
+    {
+      "id": "IL-7322",
+      "type": "initial_leg",
+      "root_id": "R7322",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7322",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7322"
+    },
+    {
+      "id": "IL-7323",
+      "type": "initial_leg",
+      "root_id": "R7323",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7323",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7323"
+    },
+    {
+      "id": "IL-7324",
+      "type": "initial_leg",
+      "root_id": "R7324",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7324",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7324"
+    },
+    {
+      "id": "IL-7325",
+      "type": "initial_leg",
+      "root_id": "R7325",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7325",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7325"
+    },
+    {
+      "id": "IL-7326",
+      "type": "initial_leg",
+      "root_id": "R7326",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7326",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7326"
+    },
+    {
+      "id": "IL-7327",
+      "type": "initial_leg",
+      "root_id": "R7327",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7327",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7327"
+    },
+    {
+      "id": "IL-7328",
+      "type": "initial_leg",
+      "root_id": "R7328",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7328",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7328"
+    },
+    {
+      "id": "IL-7329",
+      "type": "initial_leg",
+      "root_id": "R7329",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7329",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7329"
+    },
+    {
+      "id": "IL-7330",
+      "type": "initial_leg",
+      "root_id": "R7330",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7330",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7330"
+    },
+    {
+      "id": "IL-7331",
+      "type": "initial_leg",
+      "root_id": "R7331",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7331",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7331"
+    },
+    {
+      "id": "IL-7332",
+      "type": "initial_leg",
+      "root_id": "R7332",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7332",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7332"
+    },
+    {
+      "id": "IL-7333",
+      "type": "initial_leg",
+      "root_id": "R7333",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7333",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7333"
+    },
+    {
+      "id": "IL-7334",
+      "type": "initial_leg",
+      "root_id": "R7334",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7334",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7334"
+    },
+    {
+      "id": "IL-7335",
+      "type": "initial_leg",
+      "root_id": "R7335",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7335",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7335"
+    },
+    {
+      "id": "IL-7336",
+      "type": "initial_leg",
+      "root_id": "R7336",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7336",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7336"
+    },
+    {
+      "id": "IL-7337",
+      "type": "initial_leg",
+      "root_id": "R7337",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7337",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7337"
+    },
+    {
+      "id": "IL-7338",
+      "type": "initial_leg",
+      "root_id": "R7338",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7338",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7338"
+    },
+    {
+      "id": "IL-7339",
+      "type": "initial_leg",
+      "root_id": "R7339",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7339",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7339"
+    },
+    {
+      "id": "IL-7340",
+      "type": "initial_leg",
+      "root_id": "R7340",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7340",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7340"
+    },
+    {
+      "id": "IL-7341",
+      "type": "initial_leg",
+      "root_id": "R7341",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7341",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7341"
+    },
+    {
+      "id": "IL-7342",
+      "type": "initial_leg",
+      "root_id": "R7342",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7342",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7342"
+    },
+    {
+      "id": "IL-7343",
+      "type": "initial_leg",
+      "root_id": "R7343",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7343",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7343"
+    },
+    {
+      "id": "IL-7344",
+      "type": "initial_leg",
+      "root_id": "R7344",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7344",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7344"
+    },
+    {
+      "id": "IL-7345",
+      "type": "initial_leg",
+      "root_id": "R7345",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7345",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7345"
+    },
+    {
+      "id": "IL-7346",
+      "type": "initial_leg",
+      "root_id": "R7346",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7346",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7346"
+    },
+    {
+      "id": "IL-7347",
+      "type": "initial_leg",
+      "root_id": "R7347",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7347",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7347"
+    },
+    {
+      "id": "IL-7348",
+      "type": "initial_leg",
+      "root_id": "R7348",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7348",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7348"
+    },
+    {
+      "id": "IL-7349",
+      "type": "initial_leg",
+      "root_id": "R7349",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7349",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7349"
+    },
+    {
+      "id": "IL-7350",
+      "type": "initial_leg",
+      "root_id": "R7350",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7350",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7350"
+    },
+    {
+      "id": "IL-7351",
+      "type": "initial_leg",
+      "root_id": "R7351",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7351",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7351"
+    },
+    {
+      "id": "IL-7352",
+      "type": "initial_leg",
+      "root_id": "R7352",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7352",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7352"
+    },
+    {
+      "id": "IL-7353",
+      "type": "initial_leg",
+      "root_id": "R7353",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7353",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7353"
+    },
+    {
+      "id": "IL-7354",
+      "type": "initial_leg",
+      "root_id": "R7354",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7354",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7354"
+    },
+    {
+      "id": "IL-7355",
+      "type": "initial_leg",
+      "root_id": "R7355",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7355",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7355"
+    },
+    {
+      "id": "IL-7356",
+      "type": "initial_leg",
+      "root_id": "R7356",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7356",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7356"
+    },
+    {
+      "id": "IL-7357",
+      "type": "initial_leg",
+      "root_id": "R7357",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7357",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7357"
+    },
+    {
+      "id": "IL-7358",
+      "type": "initial_leg",
+      "root_id": "R7358",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7358",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7358"
+    },
+    {
+      "id": "IL-7359",
+      "type": "initial_leg",
+      "root_id": "R7359",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7359",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7359"
+    },
+    {
+      "id": "IL-7360",
+      "type": "initial_leg",
+      "root_id": "R7360",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7360",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7360"
+    },
+    {
+      "id": "IL-7361",
+      "type": "initial_leg",
+      "root_id": "R7361",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7361",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7361"
+    },
+    {
+      "id": "IL-7362",
+      "type": "initial_leg",
+      "root_id": "R7362",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7362",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7362"
+    },
+    {
+      "id": "IL-7363",
+      "type": "initial_leg",
+      "root_id": "R7363",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7363",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7363"
+    },
+    {
+      "id": "IL-7364",
+      "type": "initial_leg",
+      "root_id": "R7364",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7364",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7364"
+    },
+    {
+      "id": "IL-7365",
+      "type": "initial_leg",
+      "root_id": "R7365",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7365",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7365"
+    },
+    {
+      "id": "IL-7366",
+      "type": "initial_leg",
+      "root_id": "R7366",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7366",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7366"
+    },
+    {
+      "id": "IL-7367",
+      "type": "initial_leg",
+      "root_id": "R7367",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7367",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7367"
+    },
+    {
+      "id": "IL-7368",
+      "type": "initial_leg",
+      "root_id": "R7368",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7368",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7368"
+    },
+    {
+      "id": "IL-7369",
+      "type": "initial_leg",
+      "root_id": "R7369",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7369",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7369"
+    },
+    {
+      "id": "IL-7370",
+      "type": "initial_leg",
+      "root_id": "R7370",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7370",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7370"
+    },
+    {
+      "id": "IL-7371",
+      "type": "initial_leg",
+      "root_id": "R7371",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7371",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7371"
+    },
+    {
+      "id": "IL-7372",
+      "type": "initial_leg",
+      "root_id": "R7372",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7372",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7372"
+    },
+    {
+      "id": "IL-7373",
+      "type": "initial_leg",
+      "root_id": "R7373",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7373",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7373"
+    },
+    {
+      "id": "IL-7374",
+      "type": "initial_leg",
+      "root_id": "R7374",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7374",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7374"
+    },
+    {
+      "id": "IL-7375",
+      "type": "initial_leg",
+      "root_id": "R7375",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7375",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7375"
+    },
+    {
+      "id": "IL-7376",
+      "type": "initial_leg",
+      "root_id": "R7376",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7376",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7376"
+    },
+    {
+      "id": "IL-7377",
+      "type": "initial_leg",
+      "root_id": "R7377",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7377",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7377"
+    },
+    {
+      "id": "IL-7378",
+      "type": "initial_leg",
+      "root_id": "R7378",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7378",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7378"
+    },
+    {
+      "id": "IL-7379",
+      "type": "initial_leg",
+      "root_id": "R7379",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7379",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7379"
+    },
+    {
+      "id": "IL-7380",
+      "type": "initial_leg",
+      "root_id": "R7380",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7380",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7380"
+    },
+    {
+      "id": "IL-7381",
+      "type": "initial_leg",
+      "root_id": "R7381",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7381",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7381"
+    },
+    {
+      "id": "IL-7382",
+      "type": "initial_leg",
+      "root_id": "R7382",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7382",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7382"
+    },
+    {
+      "id": "IL-7383",
+      "type": "initial_leg",
+      "root_id": "R7383",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7383",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7383"
+    },
+    {
+      "id": "IL-7384",
+      "type": "initial_leg",
+      "root_id": "R7384",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7384",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7384"
+    },
+    {
+      "id": "IL-7385",
+      "type": "initial_leg",
+      "root_id": "R7385",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7385",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7385"
+    },
+    {
+      "id": "IL-7386",
+      "type": "initial_leg",
+      "root_id": "R7386",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7386",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7386"
+    },
+    {
+      "id": "IL-7387",
+      "type": "initial_leg",
+      "root_id": "R7387",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7387",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7387"
+    },
+    {
+      "id": "IL-7388",
+      "type": "initial_leg",
+      "root_id": "R7388",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7388",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7388"
+    },
+    {
+      "id": "IL-7389",
+      "type": "initial_leg",
+      "root_id": "R7389",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7389",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7389"
+    },
+    {
+      "id": "IL-7390",
+      "type": "initial_leg",
+      "root_id": "R7390",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7390",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7390"
+    },
+    {
+      "id": "IL-7391",
+      "type": "initial_leg",
+      "root_id": "R7391",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7391",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7391"
+    },
+    {
+      "id": "IL-7392",
+      "type": "initial_leg",
+      "root_id": "R7392",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7392",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7392"
+    },
+    {
+      "id": "IL-7393",
+      "type": "initial_leg",
+      "root_id": "R7393",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7393",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7393"
+    },
+    {
+      "id": "IL-7394",
+      "type": "initial_leg",
+      "root_id": "R7394",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7394",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7394"
+    },
+    {
+      "id": "IL-7395",
+      "type": "initial_leg",
+      "root_id": "R7395",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7395",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7395"
+    },
+    {
+      "id": "IL-7396",
+      "type": "initial_leg",
+      "root_id": "R7396",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7396",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7396"
+    },
+    {
+      "id": "IL-7397",
+      "type": "initial_leg",
+      "root_id": "R7397",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7397",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7397"
+    },
+    {
+      "id": "IL-7398",
+      "type": "initial_leg",
+      "root_id": "R7398",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7398",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7398"
+    },
+    {
+      "id": "IL-7399",
+      "type": "initial_leg",
+      "root_id": "R7399",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "7399",
+        "suffix": "",
+        "service_date": "2026-11-23",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-23T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J7399"
+    }
+  ]
+}

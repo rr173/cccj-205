@@ -1,0 +1,8 @@
+{
+  "1": "logical 101: double-root rename, unknown-root codeshare, cycle, fork",
+  "2": "logical 102: codeshare overlap, same-instant field conflict, bad offset, unsupported element",
+  "3": "logical 103: forward reference before root declaration",
+  "4": "logical 104: forward root arrives and late message binds",
+  "5": "logical 105: unknown sender external evidence",
+  "6": "logical 106: cross-UTC-midnight times keep local service date"
+}

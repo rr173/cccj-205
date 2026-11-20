@@ -1,0 +1,13 @@
+{
+  "file_count": 1,
+  "files": [
+    {
+      "kind": "aidx_xml",
+      "path": "msg_unknown_sender.xml",
+      "sha256": "9037a2460896892202cf377644ca13726fd421ac5b5bb3f33ef70d5a022bb634",
+      "size_bytes": 740
+    }
+  ],
+  "receipt_batch": 5,
+  "sender": "CA-OCC"
+}

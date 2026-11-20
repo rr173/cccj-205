@@ -1,0 +1,62 @@
+{
+  "relations": [
+    {
+      "id": "IL-G",
+      "type": "initial_leg",
+      "root_id": "G",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "410",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "JG"
+    },
+    {
+      "id": "CS-OV1",
+      "type": "codeshare",
+      "marketing_key": {
+        "carrier": "KA",
+        "flight_no": "3001",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "operating_key": {
+        "carrier": "CA",
+        "flight_no": "401",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00"
+    },
+    {
+      "id": "CS-OV2",
+      "type": "codeshare",
+      "marketing_key": {
+        "carrier": "KA",
+        "flight_no": "3001",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "operating_key": {
+        "carrier": "CA",
+        "flight_no": "402",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00"
+    }
+  ]
+}

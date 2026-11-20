@@ -1,0 +1,16 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legfact"
+version = "1.0.0"
+description = "Offline, traceable leg-fact warehouse for synthetic AIDX flight XML and carrier handover identity relations"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,183 @@
+{
+  "relations": [
+    {
+      "id": "IL-A",
+      "type": "initial_leg",
+      "root_id": "A",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "401",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "JA"
+    },
+    {
+      "id": "IL-B",
+      "type": "initial_leg",
+      "root_id": "B",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "402",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "JB"
+    },
+    {
+      "id": "RN-DOUBLE",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "401",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "402",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "effective_at": "2026-11-22T09:00:00+08:00"
+    },
+    {
+      "id": "RN-UNKNOWN",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "999",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "998",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "effective_at": "2026-11-22T09:00:00+08:00"
+    },
+    {
+      "id": "RN-C1",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "403",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "404",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "effective_at": "2026-11-22T09:00:00+08:00"
+    },
+    {
+      "id": "RN-C2",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "404",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "403",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "effective_at": "2026-11-22T10:00:00+08:00"
+    },
+    {
+      "id": "RN-F1",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "405",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "406",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "effective_at": "2026-11-22T09:00:00+08:00"
+    },
+    {
+      "id": "RN-F2",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "405",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "407",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "effective_at": "2026-11-22T09:00:00+08:00"
+    },
+    {
+      "id": "CS-BAD",
+      "type": "codeshare",
+      "marketing_key": {
+        "carrier": "KA",
+        "flight_no": "2001",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "operating_key": {
+        "carrier": "CA",
+        "flight_no": "888",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "PEK",
+        "arrival": "CTU"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00"
+    }
+  ]
+}

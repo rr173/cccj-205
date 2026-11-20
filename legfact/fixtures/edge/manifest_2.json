@@ -1,0 +1,55 @@
+{
+  "file_count": 8,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_overlap.json",
+      "sha256": "6ec97d3a5616ea26b464d1d9a06dfaee7a09cf23c5de881bc1d4e120c1449973",
+      "size_bytes": 1428
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_bad_offset.xml",
+      "sha256": "67cfa8b95d884688a168def104228a2f1623e03e4223a41f161f7032bc379a95",
+      "size_bytes": 731
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_conflict_1.xml",
+      "sha256": "30791393506991eb8158de23783853db34f3b63b3122e968c455c558b0f858d1",
+      "size_bytes": 734
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_conflict_2.xml",
+      "sha256": "c101fc85504efaf4881529e325c5561287d0fa6336bacd34dcec2bbb159a6f0b",
+      "size_bytes": 734
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g_base.xml",
+      "sha256": "c826cc2fd7c66d66dc4f117d05d022f3207c8bcc6084b9d7a8603ca769fdd521",
+      "size_bytes": 736
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g_conflict_1.xml",
+      "sha256": "9028748f39b57a6f36486118e0c5d6020112f030896781d043861da83b0bf2b5",
+      "size_bytes": 734
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g_conflict_2.xml",
+      "sha256": "e2f457551bb10eb9fc19a10596b70e09f609054ca9c446251538003d355d0657",
+      "size_bytes": 734
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_unsupported.xml",
+      "sha256": "9b73ac1fb3cb03f1790747ce823bc7a292ab55bb7fb5e484af358f7042cffd0f",
+      "size_bytes": 789
+    }
+  ],
+  "receipt_batch": 2,
+  "sender": "CA-OCC"
+}

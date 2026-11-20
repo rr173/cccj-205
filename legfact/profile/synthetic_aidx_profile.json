@@ -1,0 +1,92 @@
+{
+  "profile_id": "synthetic-aidx-leg-facts",
+  "profile_version": "1.0.0",
+  "description": "Offline leg-fact warehouse synthetic AIDX subset. Flight scheduling, path optimization and booking elements are explicitly out of scope.",
+  "default_namespace": "urn:org:aidx:synth:legfact:1",
+  "root_element": "AIDXMessageEnvelope",
+  "identity_fields": {
+    "FlightLeg": {
+      "OperatingCarrier": "operating carrier code (authoritative sender's carrier identity)",
+      "FlightNumber": "numeric flight number",
+      "Suffix": "optional flight suffix (missing element => empty suffix)",
+      "ServiceDate": "local operating day YYYY-MM-DD, independent of message/receipt date",
+      "DepartureStation": "IATA/ICAO departure station",
+      "ArrivalStation": "IATA/ICAO arrival station"
+    }
+  },
+  "time_fields": {
+    "ScheduledTime": {
+      "category": "scheduled",
+      "directional": true,
+      "comment": "ScheduledTimeOffBlocks (departure) / ScheduledTimeOnBlocks (arrival), explicit UTC offset required"
+    },
+    "EstimatedTime": {
+      "category": "estimated",
+      "directional": true,
+      "comment": "EstimatedTimeOffBlocks / EstimatedTimeOnBlocks"
+    },
+    "ActualTime": {
+      "category": "actual",
+      "directional": true,
+      "comment": "ActualTimeOffBlocks / ActualTimeOnBlocks"
+    }
+  },
+  "time_categories": {
+    "scheduled": {
+      "departure": "sched_dep",
+      "arrival": "sched_arr"
+    },
+    "estimated": {
+      "departure": "est_dep",
+      "arrival": "est_arr"
+    },
+    "actual": {
+      "departure": "act_dep",
+      "arrival": "act_arr"
+    }
+  },
+  "gate_field": {
+    "element": "Gate",
+    "value_attribute": "code",
+    "clear_value": ["", "NONE"],
+    "comment": "Gate present with empty/NONE code or nil='true' is an explicit clear. Absent element = no update."
+  },
+  "clear_marker": {
+    "attribute": "nil",
+    "true_values": ["true", "1"],
+    "applies_to": ["ScheduledTimeOffBlocks", "ScheduledTimeOnBlocks",
+                   "EstimatedTimeOffBlocks", "EstimatedTimeOnBlocks",
+                   "ActualTimeOffBlocks", "ActualTimeOnBlocks", "Gate"]
+  },
+  "cancellation": {
+    "element": "Cancellation",
+    "scope_attribute": "scope",
+    "scopes": ["leg", "journey"],
+    "action_attribute": "action",
+    "actions": ["cancel", "restore"],
+    "journey_id_attribute": "journey_id"
+  },
+  "message_envelope": {
+    "EventID": "globally unique message id; identical retransmission folds, differing payload conflicts",
+    "SourceRevision": "positive integer; ordering only within the same sender",
+    "EffectiveAt": "ISO-8601 with explicit UTC offset",
+    "IdentityAt": "ISO-8601 with explicit UTC offset; selects the alias interval binding the operating key",
+    "Sender": "authority identity; unknown senders are quarantined as external evidence",
+    "MessageType": ["FlightUpdate", "Cancellation"]
+  },
+  "unsupported_elements": {
+    "policy": "record each occurrence with xpath/line and quarantine the whole message payload from fact projection; the message itself is retained",
+    "elements": [
+      "BookingClassInventory", "SeatMap", "FareQuote", "RoutingProposal",
+      "ScheduleOptimization", "TailAssignment", "CrewRoster", "PaxBooking",
+      "BookingReference", "PaymentInfo", "WeatherDiversionPlan", "SlotSwap"
+    ],
+    "unsupported_attributes": ["xsi:schemaLocation"]
+  },
+  "notes": [
+    "Timestamps without an explicit UTC offset are rejected, never assumed local.",
+    "Missing optional element means 'no update'; nil/empty marker means 'explicit clear'.",
+    "Scheduled/estimated/actual times are separate fact fields and never overwrite one another.",
+    "No element outside this profile is interpreted, even if the XML is well-formed."
+  ]
+}

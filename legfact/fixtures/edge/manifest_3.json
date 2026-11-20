@@ -1,0 +1,13 @@
+{
+  "file_count": 1,
+  "files": [
+    {
+      "kind": "aidx_xml",
+      "path": "msg_forward.xml",
+      "sha256": "5d6af6e5409d5652fc8e6824292beaaad7f4ab7c04bde348b498a798444cfb52",
+      "size_bytes": 735
+    }
+  ],
+  "receipt_batch": 3,
+  "sender": "CA-OCC"
+}

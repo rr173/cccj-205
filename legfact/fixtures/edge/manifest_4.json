@@ -1,0 +1,13 @@
+{
+  "file_count": 1,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_forward.json",
+      "sha256": "910fb3deaaca1a1b0ee19b2710d1e0f34945795c3d088142a3e55c00fbc16d77",
+      "size_bytes": 406
+    }
+  ],
+  "receipt_batch": 4,
+  "sender": "CA-OCC"
+}

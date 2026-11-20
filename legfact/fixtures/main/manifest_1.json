@@ -1,0 +1,37 @@
+{
+  "file_count": 5,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_b1.json",
+      "sha256": "aa2ed164dd444b8a881134ef44c9fd402b919f9fd3401348fd13196a1cea1113",
+      "size_bytes": 2686
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_E-L-01.xml",
+      "sha256": "19b53240ec6dbf0b4f5495d89de054dfc8d0418cdcebd753cfd4bdb947255128",
+      "size_bytes": 1004
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_E-L-EXT.xml",
+      "sha256": "4598c70194532e3da7ae550d6d210dd4537970a31207625d1adb2459dda90c5f",
+      "size_bytes": 738
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_E-M-01.xml",
+      "sha256": "2c6b60490e812472043e79bd3335c9d3d740bc69219143e7b5db09c1fe228555",
+      "size_bytes": 870
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_E-N-01.xml",
+      "sha256": "90544ad3e99dbe0e2be95dfb72ec39af8a9fa727375fe5a3986122f245f0ae80",
+      "size_bytes": 813
+    }
+  ],
+  "receipt_batch": 1,
+  "sender": "CA-OCC"
+}

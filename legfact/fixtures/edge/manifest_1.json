@@ -1,0 +1,13 @@
+{
+  "file_count": 1,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_edge.json",
+      "sha256": "ad6296ea67f2199cfc9d958cde55f27e1adb7439a2d4129d843b1be98f3b2d7c",
+      "size_bytes": 4284
+    }
+  ],
+  "receipt_batch": 1,
+  "sender": "CA-OCC"
+}

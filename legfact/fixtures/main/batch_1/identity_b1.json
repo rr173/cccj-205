@@ -1,0 +1,115 @@
+{
+  "relations": [
+    {
+      "id": "IL-L",
+      "type": "initial_leg",
+      "root_id": "L",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "100",
+        "suffix": "",
+        "service_date": "2026-11-20",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-20T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J1"
+    },
+    {
+      "id": "IL-M",
+      "type": "initial_leg",
+      "root_id": "M",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "300",
+        "suffix": "",
+        "service_date": "2026-11-20",
+        "departure": "SHA",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-11-20T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J1"
+    },
+    {
+      "id": "IL-N",
+      "type": "initial_leg",
+      "root_id": "N",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "100",
+        "suffix": "",
+        "service_date": "2026-11-21",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-20T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "J2"
+    },
+    {
+      "id": "RN-L-10",
+      "type": "rename",
+      "old_key": {
+        "carrier": "CA",
+        "flight_no": "100",
+        "suffix": "",
+        "service_date": "2026-11-20",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "new_key": {
+        "carrier": "CA",
+        "flight_no": "200",
+        "suffix": "",
+        "service_date": "2026-11-20",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "effective_at": "2026-11-20T10:00:00+08:00"
+    },
+    {
+      "id": "CS-L",
+      "type": "codeshare",
+      "marketing_key": {
+        "carrier": "KA",
+        "flight_no": "1000",
+        "suffix": "",
+        "service_date": "2026-11-20",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "operating_key": {
+        "carrier": "CA",
+        "flight_no": "100",
+        "suffix": "",
+        "service_date": "2026-11-20",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-20T08:00:00+08:00"
+    },
+    {
+      "id": "CS-N",
+      "type": "codeshare",
+      "marketing_key": {
+        "carrier": "KA",
+        "flight_no": "1000",
+        "suffix": "",
+        "service_date": "2026-11-21",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "operating_key": {
+        "carrier": "CA",
+        "flight_no": "100",
+        "suffix": "",
+        "service_date": "2026-11-21",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-11-20T08:00:00+08:00"
+    }
+  ]
+}

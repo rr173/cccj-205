@@ -1,0 +1,19 @@
+{
+  "file_count": 2,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_crossday.json",
+      "sha256": "fc2a21232651a389f5fdc5544913d37f2351dd15f8b90cab056a94d8d76ac726",
+      "size_bytes": 406
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_crossday.xml",
+      "sha256": "def18d6d1670a8dfd89394b35c6ef2d4c49dadc83580dedbd2adc28de9f420d7",
+      "size_bytes": 795
+    }
+  ],
+  "receipt_batch": 6,
+  "sender": "CA-OCC"
+}

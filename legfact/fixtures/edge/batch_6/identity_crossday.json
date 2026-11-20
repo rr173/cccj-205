@@ -1,0 +1,20 @@
+{
+  "relations": [
+    {
+      "id": "IL-X",
+      "type": "initial_leg",
+      "root_id": "X",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "600",
+        "suffix": "",
+        "service_date": "2026-11-22",
+        "departure": "URC",
+        "arrival": "PEK"
+      },
+      "valid_from": "2026-11-22T08:00:00+08:00",
+      "sender": "CA-OCC",
+      "journey_id": "JX"
+    }
+  ]
+}

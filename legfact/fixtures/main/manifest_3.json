@@ -1,0 +1,19 @@
+{
+  "file_count": 2,
+  "files": [
+    {
+      "kind": "aidx_xml",
+      "path": "msg_E-L-03.xml",
+      "sha256": "9ab103e444d4db4e001468df0f42934f97490629a69d2127a6e910201e4d7d1e",
+      "size_bytes": 790
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_E-L-CAN.xml",
+      "sha256": "6a5b547a71ed72807603de9b0af82026c0f75461ea22b3d12bfbf1f767d13de3",
+      "size_bytes": 735
+    }
+  ],
+  "receipt_batch": 3,
+  "sender": "CA-OCC"
+}
