@@ -1,0 +1,68 @@
+{
+  "relations": [
+    {
+      "id": "IL-201",
+      "type": "initial_leg",
+      "root_id": "R201",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "201",
+        "suffix": "",
+        "service_date": "2026-03-10",
+        "departure": "PEK",
+        "arrival": "XYZ"
+      },
+      "valid_from": "2026-03-10T00:00:00+08:00",
+      "sender": "XYZ-OCC",
+      "journey_id": "J-V1"
+    },
+    {
+      "id": "IL-202",
+      "type": "initial_leg",
+      "root_id": "R202",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "202",
+        "suffix": "",
+        "service_date": "2026-03-10",
+        "departure": "XYZ",
+        "arrival": "PEK"
+      },
+      "valid_from": "2026-03-10T00:00:00+08:00",
+      "sender": "XYZ-OCC",
+      "journey_id": "J-V1"
+    },
+    {
+      "id": "IL-301",
+      "type": "initial_leg",
+      "root_id": "R301",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "301",
+        "suffix": "",
+        "service_date": "2026-03-10",
+        "departure": "CAN",
+        "arrival": "XYZ"
+      },
+      "valid_from": "2026-03-10T00:00:00+08:00",
+      "sender": "XYZ-OCC",
+      "journey_id": "J-V2"
+    },
+    {
+      "id": "IL-302",
+      "type": "initial_leg",
+      "root_id": "R302",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "302",
+        "suffix": "",
+        "service_date": "2026-03-10",
+        "departure": "XYZ",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-03-10T00:00:00+08:00",
+      "sender": "XYZ-OCC",
+      "journey_id": "J-V2"
+    }
+  ]
+}

@@ -49,15 +49,26 @@ legfact/
     landing_config.py  # 落地使用费：一套账配置、名册/协议解析与结构校验
     landing.py         # 落地使用费：计价、版本账本、更正分录、对账校验
     landing_cli.py     # 落地使用费：mart init/plan/release/show 命令面
+    stand_config.py    # 机位对账：四份 NDJSON 输入的逐行解析与结构校验
+    stand_facts.py     # 机位对账：知识截点单次扫描，裁定实到/实离
+    stand_engine.py    # 机位对账：物理单元时间账、归属冲突、实测状态机
+    stand_store.py     # 机位对账：SQLite 旁表与证据钻取（段流式写入）
+    stand_cli.py       # 机位对账：stand run/show/segments/evidence/issues
   tests/
     generate_fixtures.py  # 确定性合成夹具 + 人工预期表
     check_walkthrough.py  # 独立对照检查器（读人工预期，不读投影逻辑）
     test_warehouse.py     # 边缘语义/原子性/复制重开/乱序等价/内存
     test_cancellation.py  # cancel/restore 冲突与 journey 作用域
+    generate_stand_fixtures.py  # 机位对账手算小夹具（含非法输入夹具）
+    check_stand_recon.py  # 机位对账：手算分段表 + 朴素逐区间独立对照
+    test_stand_recon.py   # 机位对账：不可用原因/冲突/边界/证据行为门禁
+    scale_stand_recon.py  # 机位对账：2万周转/20万台账/100万观测演练
     run_all.sh            # 一键全量门禁
   fixtures/               # 生成产物：main / edge / large / expected
   fixtures/landing/       # 落地使用费小夹具：walkthrough / edge / invalid
+  fixtures/stand/         # 机位对账小夹具：handover / unmapped / invalid
   docs/landing_mart.md    # 落地使用费数据集市：接口、格式、记账与对账规则
+  docs/stand_reconciliation.md  # 机位占用对账：格式、状态机、冲突与证据规则
 ```
 
 ## 3. 快速开始
@@ -161,3 +172,45 @@ python3 -I src/legfact/cli.py mart-verify --book /tmp/book
 计价只使用指定 `receipt_batch` 与事实截止时刻下**已裁定**的权威实际到达，
 金额全程整数（最小货币单位），逐账户逐当地月份按实到 UTC 排序编号；更正走
 追加式冲销 + 正向分录，旧版本明细与其原始依据不可变。
+
+## 8. 离线机位占用对账
+
+航段事实仓之上的物理单元时间账，详见 `docs/stand_reconciliation.md`。它按
+不可重复的物理单元（而非逻辑机位名）切分审核窗口，让班组同时看到实测占用、
+台账归属与两者的对账分类，并能从任意时长钻回探测来源、台账行、机位图版本与
+航段事实依据；不分配机位、不做实时放行、不从登机口推断机位、不写回源仓。
+
+```bash
+# 生成手算小夹具（warehouse 批次 + 周转名册/台账/机位图/探测 四份 NDJSON）
+python3 -I tests/generate_stand_fixtures.py
+
+# 运行一次对账（段流式写入 SQLite 旁表，失败不留半成品）
+python3 -I src/legfact/cli.py stand run \
+  --warehouse /tmp/wh --airport XYZ \
+  --window-start "2026-03-10T09:00:00+08:00" \
+  --window-end   "2026-03-10T11:00:00+08:00" \
+  --receipt-batch 1 --cutoff "2026-03-10T12:00:00+08:00" \
+  --roster fixtures/stand/handover/inputs/visits.ndjson \
+  --ledger fixtures/stand/handover/inputs/ledger.ndjson \
+  --map    fixtures/stand/handover/inputs/map.ndjson \
+  --sensor fixtures/stand/handover/inputs/sensor.ndjson \
+  --out /tmp/stand_recon.sqlite
+
+# 总量/分段/问题/证据钻取
+python3 -I src/legfact/cli.py stand show     --sidecar /tmp/stand_recon.sqlite
+python3 -I src/legfact/cli.py stand segments --sidecar /tmp/stand_recon.sqlite
+python3 -I src/legfact/cli.py stand issues   --sidecar /tmp/stand_recon.sqlite
+python3 -I src/legfact/cli.py stand evidence --sidecar /tmp/stand_recon.sqlite \
+       --unit B --at-us 1773109800000000
+```
+
+时间账按物理单元无缝分段、时长为精确整数微秒并逐单元守恒；实测占用给确认
+下界与含未知的上界（单位为物理单元 × 时间，不是飞机数）。结构损坏、重复主
+键、相互覆盖的机位图版本或同单元相互覆盖的在线区间都会令作业失败。
+
+- `check_stand_recon.py`：25 段手算分界 + 朴素逐区间混合端点网格对照；
+- `test_stand_recon.py`：五类不可用名册原因、同周转多机位/跨周转冲突、
+  半开区间相接、在线重启/离线/右界观测、证据定位与失败不留痕；
+- `scale_stand_recon.py`（`STAND_SCALE=1`）：运行时合成 2 万周转、20 万台账、
+  100 万观测，含数千活动声明的热点单元，报告处理条数、守恒、证据查询、事实
+  扫描 SQL 数与峰值 RSS（门槛 512 MiB），只提交生成器不提交大数据。

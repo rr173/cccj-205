@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIDXMessageEnvelope xmlns="urn:org:aidx:synth:legfact:1">
+   <EventID>E-202</EventID>
+   <Sender>XYZ-OCC</Sender>
+   <SourceRevision>1</SourceRevision>
+   <EffectiveAt>2026-03-10T10:45:00+08:00</EffectiveAt>
+   <IdentityAt>2026-03-10T00:00:00+08:00</IdentityAt>
+   <MessageType>FlightUpdate</MessageType>
+   <FlightLeg>
+      <OperatingCarrier>CA</OperatingCarrier>
+      <FlightNumber>202</FlightNumber>
+      <Suffix nil="true"></Suffix>
+      <ServiceDate>2026-03-10</ServiceDate>
+      <DepartureStation>XYZ</DepartureStation>
+      <ArrivalStation>PEK</ArrivalStation>
+      <ActualTimeOffBlocks>2026-03-10T10:40:00+08:00</ActualTimeOffBlocks>
+   </FlightLeg>
+</AIDXMessageEnvelope>

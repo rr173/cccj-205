@@ -1,0 +1,5 @@
+{"record_id": "UR-A", "type": "physical_unit", "unit_id": "A"}
+{"record_id": "UR-B", "type": "physical_unit", "unit_id": "B"}
+{"record_id": "UR-C", "type": "physical_unit", "unit_id": "C"}
+{"end": "2026-03-10T10:10:00+08:00", "mapping": {"S": ["B"], "W": ["A", "B"]}, "record_id": "MR-1", "start": "2026-03-10T00:00:00+08:00", "type": "stand_map_version", "version_id": "MAP-1"}
+{"end": "2026-03-11T00:00:00+08:00", "mapping": {"S": ["B"], "W": ["B", "C"]}, "record_id": "MR-2", "start": "2026-03-10T10:10:00+08:00", "type": "stand_map_version", "version_id": "MAP-2"}

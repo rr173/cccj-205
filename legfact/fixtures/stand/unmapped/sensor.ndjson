@@ -1,0 +1,4 @@
+{"end": "2026-03-10T11:30:00+08:00", "record_id": "ON-A1", "start": "2026-03-10T08:00:00+08:00", "type": "online_interval", "unit_id": "A"}
+{"end": "2026-03-10T11:30:00+08:00", "record_id": "ON-B1", "start": "2026-03-10T08:00:00+08:00", "type": "online_interval", "unit_id": "B"}
+{"at": "2026-03-10T08:30:00+08:00", "record_id": "OA1", "state": "occupied", "type": "observation", "unit_id": "A"}
+{"at": "2026-03-10T08:30:00+08:00", "record_id": "OB1", "state": "occupied", "type": "observation", "unit_id": "B"}

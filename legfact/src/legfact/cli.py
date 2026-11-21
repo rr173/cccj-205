@@ -200,7 +200,18 @@ def build_parser() -> argparse.ArgumentParser:
                         help="re-derive landing ledger invariants from stored rows")
     sp.add_argument("--book", required=True)
     sp.set_defaults(func=cmd_mart_verify)
+
+    sp = sub.add_parser("stand",
+                        help="offline stand-occupancy reconciliation (see "
+                             "docs/stand_reconciliation.md)")
+    sp.add_argument("stand_args", nargs=argparse.REMAINDER)
+    sp.set_defaults(func=cmd_stand)
     return p
+
+
+def cmd_stand(a: argparse.Namespace) -> int:
+    from legfact.stand_cli import main as stand_main
+    return stand_main(list(a.stand_args))
 
 
 def cmd_mart(a: argparse.Namespace) -> int:

@@ -1,0 +1,7 @@
+{"end": "2026-03-10T10:50:00+08:00", "record_id": "LR-1", "stand": "W", "start": "2026-03-10T09:25:00+08:00", "type": "stand_usage", "visit_id": "V1"}
+{"end": "2026-03-10T10:35:00+08:00", "record_id": "LR-2", "stand": "W", "start": "2026-03-10T10:25:00+08:00", "type": "stand_usage", "visit_id": "V1"}
+{"end": "2026-03-10T10:35:00+08:00", "record_id": "LR-3", "stand": "S", "start": "2026-03-10T10:25:00+08:00", "type": "stand_usage", "visit_id": "V1"}
+{"end": "2026-03-10T10:05:00+08:00", "record_id": "LR-4", "stand": "S", "start": "2026-03-10T09:40:00+08:00", "type": "stand_usage", "visit_id": "V2"}
+{"end": "2026-03-10T10:20:00+08:00", "record_id": "LR-5", "stand": "W", "start": "2026-03-10T10:15:00+08:00", "type": "stand_usage", "visit_id": "V2"}
+{"end": "2026-03-10T11:40:00+08:00", "record_id": "LR-6", "stand": "S", "start": "2026-03-10T11:30:00+08:00", "type": "stand_usage", "visit_id": "V2"}
+{"end": "2026-03-10T09:35:00+08:00", "record_id": "LR-7", "stand": "S", "start": "2026-03-10T09:30:00+08:00", "type": "stand_usage", "visit_id": "V-GHOST"}

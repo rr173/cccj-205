@@ -1,0 +1,2 @@
+{"end": "2026-03-10T11:30:00+08:00", "record_id": "ON-1", "start": "2026-03-10T08:00:00+08:00", "type": "online_interval", "unit_id": "A"}
+{"at": "2026-03-10T09:30:00+08:00", "record_id": "OB-1", "state": "occupied", "type": "observation", "unit_id": "A"}
