@@ -1,0 +1,148 @@
+{
+  "relations": [
+    {
+      "id": "IL-G1",
+      "type": "initial_leg",
+      "root_id": "G1",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5001",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J1"
+    },
+    {
+      "id": "IL-G2",
+      "type": "initial_leg",
+      "root_id": "G2",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5002",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J2"
+    },
+    {
+      "id": "IL-G3",
+      "type": "initial_leg",
+      "root_id": "G3",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5003",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "SZX"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J3"
+    },
+    {
+      "id": "IL-G6",
+      "type": "initial_leg",
+      "root_id": "G6",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5006",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J6"
+    },
+    {
+      "id": "IL-G7",
+      "type": "initial_leg",
+      "root_id": "G7",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5007",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J7"
+    },
+    {
+      "id": "IL-G8",
+      "type": "initial_leg",
+      "root_id": "G8",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5008",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J8"
+    },
+    {
+      "id": "IL-G9",
+      "type": "initial_leg",
+      "root_id": "G9",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5009",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J9"
+    },
+    {
+      "id": "IL-G11",
+      "type": "initial_leg",
+      "root_id": "G11",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5011",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J11"
+    },
+    {
+      "id": "IL-G12",
+      "type": "initial_leg",
+      "root_id": "G12",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "5012",
+        "suffix": "",
+        "service_date": "2026-05-12",
+        "departure": "PEK",
+        "arrival": "CAN"
+      },
+      "valid_from": "2026-05-12T06:00:00+08:00",
+      "sender": "CAN-OCC",
+      "journey_id": "J12"
+    }
+  ]
+}

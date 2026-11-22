@@ -1,0 +1,115 @@
+{
+  "file_count": 18,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_b1.json",
+      "sha256": "5aa89ce2390d16897e92386531919ff196678b4de40a2f04796f888102d52397",
+      "size_bytes": 6404
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_d.xml",
+      "sha256": "d8c2283b049de0ec172d1a64c4c87611bfdd3729e1709f8cda10c0f5f0cd7d73",
+      "size_bytes": 811
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_dp.xml",
+      "sha256": "c9bc4bcbd509d4026ec20672d6f165ba03fb8fb49feb498e30c67b6b9f695a84",
+      "size_bytes": 727
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_e.xml",
+      "sha256": "4390028222fc9805264968ec3f5233ad5dbb04a9ebcaf93cc5c8395d908d57ae",
+      "size_bytes": 726
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_h.xml",
+      "sha256": "20191cfbde64a7d9377020a7c21e851de3348dee2b900897911f98bf036ceb97",
+      "size_bytes": 726
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_multi_1.xml",
+      "sha256": "6a1c2ad772107d0063f806ce52b824d2a4f3219010417ca2c68d68680f38bca3",
+      "size_bytes": 732
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_multi_2.xml",
+      "sha256": "2e7eee30953146d1958292a3ecec2b71be21ed5109ec9546e0e53de18fb02f9f",
+      "size_bytes": 732
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_multi_3.xml",
+      "sha256": "e97e108a974fecf6975dcefbb5bcfb7258c9e1116f994754d1ef2a15c9771524",
+      "size_bytes": 732
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_o.xml",
+      "sha256": "80f6bff61404a6058b439b01bc7bc4839106d9e0d34392564857938c6fa99ba3",
+      "size_bytes": 726
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_ren_new.xml",
+      "sha256": "4520db236d7992e87aff149926f61573c14d183849dcdac6305918752a06d234",
+      "size_bytes": 732
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_ren_old.xml",
+      "sha256": "9215abc2ed1c37a66ce0674ca8edfda83749cfd20a3a5a464ecc538b97db4ecb",
+      "size_bytes": 732
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_s1.xml",
+      "sha256": "5871e77e9fb35f12ddb1791411cb5f19e903b3b293cee85a445f5848f1e2536a",
+      "size_bytes": 727
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_s2.xml",
+      "sha256": "2e61d39bfb4c30ccc1b10f42e57808e6b530256feb7f76f28052766dd1fe4dec",
+      "size_bytes": 727
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_t.xml",
+      "sha256": "bd09df26d01f642d01b2877d12562c154c272b76c83280a3eafa4f1b97c28905",
+      "size_bytes": 721
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_u1.xml",
+      "sha256": "309c18b40e95fab240effb67c971df697869dbc82ed21d4954830a94d08f085c",
+      "size_bytes": 727
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_u2.xml",
+      "sha256": "43fe79032e522eacedb61c75801237ddf714fa8c08a33c93958a34c9966cd66b",
+      "size_bytes": 727
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_w.xml",
+      "sha256": "1f6e7808c46ebf938c94dc44d0ca7b77a97b033b16e1173fe1b08104fdac9167",
+      "size_bytes": 726
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_z.xml",
+      "sha256": "a6ab14f8e6be54abeafb6c1321112c382302c1feb1196cbc33cb5e8ea442beee",
+      "size_bytes": 726
+    }
+  ],
+  "receipt_batch": 1,
+  "sender": "SHA-OCC"
+}

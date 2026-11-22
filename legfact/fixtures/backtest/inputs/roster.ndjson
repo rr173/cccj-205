@@ -1,0 +1,13 @@
+{"group": "G1", "record_id": "RR-G1", "root_id": "G1", "roster_sched_arr": "2026-05-12T10:30:00+08:00", "type": "backtest_roster_row"}
+{"group": "G1", "record_id": "RR-G2", "root_id": "G2", "roster_sched_arr": "2026-05-12T10:45:00+08:00", "type": "backtest_roster_row"}
+{"group": "G1", "record_id": "RR-G9", "root_id": "G9", "roster_sched_arr": "2026-05-12T10:35:00+08:00", "type": "backtest_roster_row"}
+{"group": "G1", "record_id": "RR-GX", "root_id": "GX", "roster_sched_arr": "2026-05-12T10:40:00+08:00", "type": "backtest_roster_row"}
+{"group": "G2", "record_id": "RR-G3", "root_id": "G3", "roster_sched_arr": "2026-05-12T10:30:00+08:00", "type": "backtest_roster_row"}
+{"group": "G2", "record_id": "RR-G4", "root_id": "G4", "roster_sched_arr": "2026-05-12T11:00:00+08:00", "type": "backtest_roster_row"}
+{"group": "G2", "record_id": "RR-G5", "root_id": "G5", "roster_sched_arr": "2026-05-12T10:50:00+08:00", "type": "backtest_roster_row"}
+{"group": "G2", "record_id": "RR-G10", "root_id": "G10", "roster_sched_arr": "2026-05-12T11:10:00+08:00", "type": "backtest_roster_row"}
+{"group": "G3", "record_id": "RR-G6", "root_id": "G6", "roster_sched_arr": "2026-05-12T10:20:00+08:00", "type": "backtest_roster_row"}
+{"group": "G3", "record_id": "RR-G11", "root_id": "G11", "roster_sched_arr": "2026-05-12T10:40:00+08:00", "type": "backtest_roster_row"}
+{"group": "G2", "record_id": "RR-G12", "root_id": "G12", "roster_sched_arr": "2026-05-12T08:30:00+08:00", "type": "backtest_roster_row"}
+{"group": "G3", "record_id": "RR-G7", "root_id": "G7", "roster_sched_arr": "2026-05-12T10:35:00+08:00", "type": "backtest_roster_row"}
+{"group": "G3", "record_id": "RR-G8", "root_id": "G8", "roster_sched_arr": "2026-05-12T11:30:00+08:00", "type": "backtest_roster_row"}

@@ -54,6 +54,9 @@ legfact/
     stand_engine.py    # 机位对账：物理单元时间账、归属冲突、实测状态机
     stand_store.py     # 机位对账：SQLite 旁表与证据钻取（段流式写入）
     stand_cli.py       # 机位对账：stand run/show/segments/evidence/issues
+    backtest_config.py # 到达回测：冻结名册/可见时间表/运行参数的逐行解析与校验
+    backtest_engine.py # 到达回测：流式两截点重放、归类、整数微秒误差与在线汇总
+    backtest_cli.py    # 到达回测：backtest run/show/samples/checks
   tests/
     generate_fixtures.py  # 确定性合成夹具 + 人工预期表
     check_walkthrough.py  # 独立对照检查器（读人工预期，不读投影逻辑）
@@ -63,12 +66,18 @@ legfact/
     check_stand_recon.py  # 机位对账：手算分段表 + 朴素逐区间独立对照
     test_stand_recon.py   # 机位对账：不可用原因/冲突/边界/证据行为门禁
     scale_stand_recon.py  # 机位对账：2万周转/20万台账/100万观测演练
+    generate_backtest_fixtures.py  # 到达回测：可手算小夹具（五类样本/边界全覆盖）
+    check_backtest.py     # 到达回测：不导入回测实现的独立逐检查点对照器
+    test_backtest.py      # 到达回测：冻结输入拒绝/陈旧/清空/冲突/证据/流式门禁
+    scale_backtest.py     # 到达回测：6万根/72批/40万报文演练（峰值 RSS 测量）
     run_all.sh            # 一键全量门禁
   fixtures/               # 生成产物：main / edge / large / expected
   fixtures/landing/       # 落地使用费小夹具：walkthrough / edge / invalid
   fixtures/stand/         # 机位对账小夹具：handover / unmapped / invalid
+  fixtures/backtest/      # 到达回测小夹具：wh / inputs / expected
   docs/landing_mart.md    # 落地使用费数据集市：接口、格式、记账与对账规则
   docs/stand_reconciliation.md  # 机位占用对账：格式、状态机、冲突与证据规则
+  docs/arrival_backtest.md      # 到达预测回测：冻结输入、归类优先级、配对比较与规模口径
 ```
 
 ## 3. 快速开始
@@ -98,6 +107,16 @@ python3 -I src/legfact/cli.py query --warehouse /tmp/wh --marketing \
 python3 -I src/legfact/cli.py identity --warehouse /tmp/wh ...
 python3 -I src/legfact/cli.py export   --warehouse /tmp/wh --event-id E-L-CAN
 python3 -I src/legfact/cli.py warnings --warehouse /tmp/wh --receipt-batch 1
+
+# 到达预测回测（只看历史；冻结名册/可见时间表，输出可逐行核查的 NDJSON）
+python3 -I tests/generate_backtest_fixtures.py
+python3 -I src/legfact/cli.py backtest run --warehouse /tmp/btwh \
+  --spec fixtures/backtest/inputs/spec.json \
+  --roster fixtures/backtest/inputs/roster.ndjson \
+  --visibility fixtures/backtest/inputs/visibility.ndjson \
+  --out /tmp/backtest_out
+python3 -I src/legfact/cli.py backtest show    --out-dir /tmp/backtest_out
+python3 -I src/legfact/cli.py backtest checks  --out-dir /tmp/backtest_out
 ```
 
 ## 4. 存储与可追溯性
@@ -139,8 +158,18 @@ bash tests/run_all.sh
   跨月分区改账，报告参与计价/未决条数、分区余额与进程峰值 RSS
   （默认跳过，`LANDING_SCALE=1 bash tests/run_all.sh` 或单独运行）。
 
+- `check_backtest.py`：到达预测回测的**独立逐检查点对照器**，不导入回测引擎，
+  直接重放仓表重建每行事实、归类、整数微秒误差与每个分母，并核验配对 -8 分钟
+  vs 单侧均值相减 -13 分钟的区别。
+- `test_backtest.py`：51 项行为门禁，覆盖冻结输入拒绝、五类样本优先级、
+  可用/缺失/清空/冲突/陈旧状态、证据定位、不写回源仓与流式 SQL 线性边界。
+- `scale_backtest.py`：运行时合成 6 万根 / 每根 4 检查点（24 万样本行）/
+  72 批 / 40 万条稀疏报文（含反复更正热点根与延迟闭合关系），在独立进程报告
+  分母守恒、抽样来源与峰值 RSS（< 512 MiB；默认跳过，
+  `BACKTEST_SCALE=1 bash tests/run_all.sh` 或单独运行）。
+
 仅依赖 Python 3.11 标准库（sqlite3、xml.parsers.expat、hashlib、tracemalloc、
-zoneinfo）。
+zoneinfo、array）。
 
 ## 7. 落地使用费数据集市
 

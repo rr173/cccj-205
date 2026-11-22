@@ -1,0 +1,52 @@
+{
+  "relations": [
+    {
+      "id": "IL-A",
+      "type": "initial_leg",
+      "root_id": "R-A",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "101",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-A"
+    },
+    {
+      "id": "IL-B",
+      "type": "initial_leg",
+      "root_id": "R-B",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "102",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-B"
+    },
+    {
+      "id": "IL-C",
+      "type": "initial_leg",
+      "root_id": "R-C",
+      "initial_key": {
+        "carrier": "CA",
+        "flight_no": "103",
+        "suffix": "",
+        "service_date": "2026-01-01",
+        "departure": "PEK",
+        "arrival": "SHA"
+      },
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "sender": "SHA-OCC",
+      "journey_id": "J-C"
+    }
+  ]
+}

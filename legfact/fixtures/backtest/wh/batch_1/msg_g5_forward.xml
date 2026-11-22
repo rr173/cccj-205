@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AIDXMessageEnvelope xmlns="urn:org:aidx:synth:legfact:1">
+   <EventID>E-G5-FWD</EventID>
+   <Sender>CAN-OCC</Sender>
+   <SourceRevision>1</SourceRevision>
+   <EffectiveAt>2026-05-12T09:10:00+08:00</EffectiveAt>
+   <IdentityAt>2026-05-12T06:00:00+08:00</IdentityAt>
+   <MessageType>FlightUpdate</MessageType>
+   <FlightLeg>
+      <OperatingCarrier>CA</OperatingCarrier>
+      <FlightNumber>5005</FlightNumber>
+      <Suffix nil="true"></Suffix>
+      <ServiceDate>2026-05-12</ServiceDate>
+      <DepartureStation>PEK</DepartureStation>
+      <ArrivalStation>CAN</ArrivalStation>
+      <ScheduledTimeOnBlocks>2026-05-12T10:50:00+08:00</ScheduledTimeOnBlocks>
+      <EstimatedTimeOnBlocks>2026-05-12T10:52:00+08:00</EstimatedTimeOnBlocks>
+   </FlightLeg>
+</AIDXMessageEnvelope>

@@ -1,0 +1,5 @@
+{"batch_no": 1, "first_visible_at": "2026-05-12T08:00:00+08:00", "record_id": "VB-1", "type": "batch_visibility"}
+{"batch_no": 2, "first_visible_at": "2026-05-12T10:00:00+08:00", "record_id": "VB-2", "type": "batch_visibility"}
+{"batch_no": 3, "first_visible_at": "2026-05-12T10:02:00+08:00", "record_id": "VB-3", "type": "batch_visibility"}
+{"batch_no": 4, "first_visible_at": "2026-05-12T10:05:00+08:00", "record_id": "VB-4", "type": "batch_visibility"}
+{"batch_no": 5, "first_visible_at": "2026-05-12T10:30:00+08:00", "record_id": "VB-5", "type": "batch_visibility"}

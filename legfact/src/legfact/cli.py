@@ -206,7 +206,18 @@ def build_parser() -> argparse.ArgumentParser:
                              "docs/stand_reconciliation.md)")
     sp.add_argument("stand_args", nargs=argparse.REMAINDER)
     sp.set_defaults(func=cmd_stand)
+
+    sp = sub.add_parser("backtest",
+                        help="offline arrival-prediction backtest (see "
+                             "docs/arrival_backtest.md)")
+    sp.add_argument("backtest_args", nargs=argparse.REMAINDER)
+    sp.set_defaults(func=cmd_backtest)
     return p
+
+
+def cmd_backtest(a: argparse.Namespace) -> int:
+    from legfact.backtest_cli import main as backtest_main
+    return backtest_main(list(a.backtest_args))
 
 
 def cmd_stand(a: argparse.Namespace) -> int:

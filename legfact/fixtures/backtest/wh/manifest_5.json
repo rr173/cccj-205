@@ -1,0 +1,31 @@
+{
+  "file_count": 4,
+  "files": [
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g11_act.xml",
+      "sha256": "533c72130a6d0b5d34cb6d52f33dd7be8443ec81e37f575eb66a4fbd59e6b587",
+      "size_bytes": 731
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g1_act.xml",
+      "sha256": "62dee5f82cb958991b151314555c103db78865704b66d55f7fb824b5bbe4a501",
+      "size_bytes": 730
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g2_act.xml",
+      "sha256": "368b182b4802f3af84cb7420bb8df5a24a05c74bfe75126373db6cb7f344b487",
+      "size_bytes": 730
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g5_act.xml",
+      "sha256": "c8130a73c6b794aec69db95322c291d86bc609a344b16f94f4c2ed45bc9f9b1c",
+      "size_bytes": 730
+    }
+  ],
+  "receipt_batch": 5,
+  "sender": "CAN-OCC"
+}

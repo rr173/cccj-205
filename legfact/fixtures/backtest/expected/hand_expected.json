@@ -1,0 +1,33 @@
+{
+  "airport": "CAN",
+  "close_out_at": "2026-05-12T11:00:00+08:00",
+  "lead_minutes": [
+    30,
+    60
+  ],
+  "worked_example": {
+    "note": "On the two scoreable rows G1 and G2 (10:00-style cut): G1 |est-act|=2 min and |sched-act|=10 min; G2 has its ETA cleared so only sched is available, |sched-act|=20 min. Scheduled coverage N=2, estimated coverage N=1, paired N=1. On the single paired sample the paired absolute-error difference (est minus sched) = 2-10 = -8 min = -480_000_000 us.  Subtracting the two one-sided MEAN absolute errors instead would compare different populations: 2 - ((10+20)/2) = -13 min (-780_000_000 us), which is why the paired difference is the only valid comparison.",
+    "G1": {
+      "seen_est": "10:18",
+      "seen_sched": "10:30",
+      "close_actual": "10:20",
+      "abs_est_error_min": 2,
+      "abs_sched_error_min": 10
+    },
+    "G2": {
+      "seen_est": "cleared",
+      "seen_sched": "10:45",
+      "close_actual": "10:25",
+      "abs_est_error_min": null,
+      "abs_sched_error_min": 20
+    },
+    "one_sided_means": {
+      "sched_n": 2,
+      "sched_mean_abs_minutes": 15.0,
+      "est_n": 1,
+      "est_mean_abs_minutes": 2.0,
+      "naive_mean_difference_minutes": -13.0,
+      "paired_abs_diff_est_minus_sched_minutes": -8.0
+    }
+  }
+}

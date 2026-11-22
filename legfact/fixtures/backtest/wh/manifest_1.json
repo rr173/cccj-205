@@ -1,0 +1,73 @@
+{
+  "file_count": 11,
+  "files": [
+    {
+      "kind": "identity_json",
+      "path": "identity_b1.json",
+      "sha256": "8faf7280149553e06e49b3c8325b1a43661d55af9124e20cf0414f84471f37c5",
+      "size_bytes": 3504
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g11_base.xml",
+      "sha256": "0af14064b19c22932a05e27a1a6ee2c0f7fc084bbc6fbf56924c561dc1400b6f",
+      "size_bytes": 738
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g12_base.xml",
+      "sha256": "3d2d63295e7d8565156e8db406d051335c9633b20ab255bb68cff7eabcf1040f",
+      "size_bytes": 890
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g1_base.xml",
+      "sha256": "7352668760ff959f535213ea19b2b94fb4b75a5da3e00aec5a3cfbd314b22fa1",
+      "size_bytes": 816
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g2_base.xml",
+      "sha256": "25b568be7a56b245884856e7a04948bb76f18cacd391734074efe935949eb85f",
+      "size_bytes": 816
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g3_base.xml",
+      "sha256": "f9f6adc71078ddb80b1c1c09992c33d3ed3721e12f806c0d947b03212477022c",
+      "size_bytes": 737
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g5_forward.xml",
+      "sha256": "02107333fdf8d059de42eab4bbea06500d3e5a2f7acabb508ade65453f659542",
+      "size_bytes": 815
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g6_act.xml",
+      "sha256": "a83058d553b12cc3f64bd2d509e3c23fe3c96c3104fc7550cc0c3ee226167c44",
+      "size_bytes": 809
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g7_act_a.xml",
+      "sha256": "a031702c4acb325b98555362015c629e2986a2813c9327deb79a5b30491fd955",
+      "size_bytes": 811
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g8_base.xml",
+      "sha256": "d6ede33b93f111cfd4d482e52fd8d7f5faf6485b70c5206b44ce193b41858b2d",
+      "size_bytes": 737
+    },
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g9_base.xml",
+      "sha256": "8e00b1ba9279ee6c199a49b4e224c8965b9a095d346443a871f2def6f7a36fcb",
+      "size_bytes": 823
+    }
+  ],
+  "receipt_batch": 1,
+  "sender": "CAN-OCC"
+}

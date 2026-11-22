@@ -1,0 +1,13 @@
+{
+  "file_count": 1,
+  "files": [
+    {
+      "kind": "aidx_xml",
+      "path": "msg_g1_future_eff.xml",
+      "sha256": "a89f6a65dcb9f3ddf89be7e75e08a5dd4c11ad952f3164bfe47ba0c1b73bca85",
+      "size_bytes": 740
+    }
+  ],
+  "receipt_batch": 2,
+  "sender": "CAN-OCC"
+}
